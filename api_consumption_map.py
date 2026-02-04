@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1w7IWSD9d-TL2aFILAf8_yQzidYC603Xq
 """
 
-! pip install dash
-
 import pandas as pd
 import requests
 from dash import Dash, dcc, html, Input, Output
