@@ -32,7 +32,7 @@ print ("List of schools in inner London.", df["LA (name)"].unique())
 # Keeping only the columns needed
 df = df[[
     "URN",
-    "EstablishmentStatus (name)",
+    "EstablishmentName",
     "Postcode",
     "LA (name)",
     "PhaseOfEducation (name)"
@@ -42,7 +42,7 @@ df.head(5)
 # Renaming the column names to match the TimescaleDB, Breathe Air, and AirGradient variables.
 df = df.rename(columns = {
     "URN": "school_id",
-    "EstablishmentStatus (name)": "school_name",
+    "EstablishmentName": "school_name",
     "Postcode": "postcode",
     "LA (name)": "borough",
     "PhaseOfEducation (name)": "school_type"
