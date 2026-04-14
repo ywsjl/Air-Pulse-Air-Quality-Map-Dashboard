@@ -1,825 +1,825 @@
 school_id,school_name,postcode,borough,school_type
-100000,Open,EC3A 5DE,City of London,Primary
-100008,Open,WC1H 9EG,Camden,Primary
-100009,Open,NW6 1QL,Camden,Primary
-100010,Open,NW1 9AL,Camden,Primary
-100011,Open,N19 5DH,Camden,Primary
-100013,Open,NW1 1HQ,Camden,Primary
-100014,Open,NW3 2QT,Camden,Primary
-100015,Open,NW1 8RP,Camden,Primary
-100018,Open,NW1 3EX,Camden,Primary
-100019,Open,NW3 1HU,Camden,Primary
-100020,Open,NW1 8JL,Camden,Primary
-100021,Open,NW5 3HB,Camden,Primary
-100022,Open,NW1 0LL,Camden,Primary
-100023,Open,NW5 2SJ,Camden,Primary
-100025,Open,NW3 2JB,Camden,Primary
-100026,Open,NW3 6NP,Camden,Primary
-100027,Open,NW5 2JA,Camden,Primary
-100028,Open,NW3 1JH,Camden,Primary
-100029,Open,NW1 4BD,Camden,Primary
-100030,Open,NW6 1TF,Camden,Primary
-100031,Open,NW3 6TX,Camden,Primary
-100032,Open,NW3 5SQ,Camden,Primary
-100033,Open,NW1 8DE,Camden,Primary
-100034,Open,NW5 2TU,Camden,Primary
-100035,Open,NW3 2AE,Camden,Primary
-100036,Open,EC1N 7SD,Camden,Primary
-100040,Open,WC1N 2NX,Camden,Primary
-100041,Open,WC2B 5NA,Camden,Primary
-100042,Open,NW6 4PG,Camden,Primary
-100043,Open,NW1 1QP,Camden,Primary
-100045,Open,NW5 3AH,Camden,Primary
-100046,Open,NW3 3DS,Camden,Primary
-100047,Open,NW6 4LS,Camden,Primary
-100048,Open,NW1 0DP,Camden,Primary
-100049,Open,NW3 2BQ,Camden,Secondary
-100050,Open,NW5 1RL,Camden,Secondary
-100051,Open,NW1 1RX,Camden,Secondary
-100052,Open,NW2 3RT,Camden,Secondary
-100053,Open,NW5 1UJ,Camden,Secondary
-100054,Open,NW5 2DB,Camden,Secondary
-100055,Open,NW1 1LY,Camden,Secondary
-100056,Open,NW5 1RN,Camden,Secondary
-100059,Open,NW5 1RP,Camden,Secondary
-100218,Open,E9 6HB,Hackney,Primary
-100223,Open,E5 0EG,Hackney,Primary
-100225,Open,E9 5ND,Hackney,Primary
-100229,Open,E9 7JS,Hackney,Primary
-100230,Open,E8 3RL,Hackney,Primary
-100231,Open,E5 0SH,Hackney,Primary
-100232,Open,E9 6LL,Hackney,Primary
-100234,Open,E9 7BB,Hackney,Primary
-100235,Open,E8 4ET,Hackney,Primary
-100239,Open,N16 8DF,Hackney,Primary
-100240,Open,E2 8QH,Hackney,Primary
-100241,Open,E8 2EA,Hackney,Primary
-100242,Open,E5 9NL,Hackney,Primary
-100243,Open,N1 7HA,Hackney,Primary
-100245,Open,N1 5JN,Hackney,Primary
-100248,Open,N4 1SY,Hackney,Primary
-100250,Open,E9 5PP,Hackney,Primary
-100252,Open,N16 9PD,Hackney,Primary
-100253,Open,N16 6NR,Hackney,Primary
-100254,Open,E5 8NA,Hackney,Primary
-100256,Open,E5 9JG,Hackney,Primary
-100257,Open,N16 5ED,Hackney,Primary
-100258,Open,N16 0QP,Hackney,Primary
-100259,Open,N4 2HQ,Hackney,Primary
-100260,Open,N16 7AU,Hackney,Primary
-100261,Open,E5 0BT,Hackney,Primary
-100263,Open,E8 3DY,Hackney,Primary
-100264,Open,N1 4JB,Hackney,Primary
-100266,Open,N1 6JG,Hackney,Primary
-100267,Open,N16 8DD,Hackney,Primary
-100269,Open,E8 4PB,Hackney,Primary
-100270,Open,E9 7JF,Hackney,Primary
-100274,Open,E5 8BS,Hackney,Primary
-100275,Open,N16 6PD,Hackney,Primary
-100279,Open,N16 9EX,Hackney,Secondary
-100282,Open,N16 5AF,Hackney,Secondary
-100284,Open,E9 6NR,Hackney,Secondary
-100321,Open,W14 0DT,Hammersmith and Fulham,Primary
-100322,Open,W14 9LY,Hammersmith and Fulham,Primary
-100324,Open,W6 0BA,Hammersmith and Fulham,Primary
-100326,Open,W12 8JJ,Hammersmith and Fulham,Primary
-100328,Open,W6 7PZ,Hammersmith and Fulham,Primary
-100331,Open,NW10 6AL,Hammersmith and Fulham,Primary
-100334,Open,W6 9ER,Hammersmith and Fulham,Primary
-100335,Open,W12 0AS,Hammersmith and Fulham,Primary
-100338,Open,SW6 7LN,Hammersmith and Fulham,Primary
-100340,Open,W12 9LB,Hammersmith and Fulham,Primary
-100341,Open,W12 0SR,Hammersmith and Fulham,Primary
-100344,Open,SW6 6ED,Hammersmith and Fulham,Primary
-100345,Open,SW6 4BL,Hammersmith and Fulham,Primary
-100346,Open,W6 0UA,Hammersmith and Fulham,Primary
-100349,Open,SW6 6AS,Hammersmith and Fulham,Primary
-100350,Open,W14 0LT,Hammersmith and Fulham,Primary
-100351,Open,W6 9BP,Hammersmith and Fulham,Primary
-100352,Open,W6 9BA,Hammersmith and Fulham,Primary
-100353,Open,W12 8LH,Hammersmith and Fulham,Primary
-100354,Open,W12 9BY,Hammersmith and Fulham,Primary
-100357,Open,SW6 7HB,Hammersmith and Fulham,Primary
-100397,Open,N4 2DR,Islington,Primary
-100402,Open,N5 1PJ,Islington,Primary
-100403,Open,N19 4JA,Islington,Primary
-100405,Open,N5 1LH,Islington,Primary
-100406,Open,N7 6AR,Islington,Primary
-100407,Open,N1 8BD,Islington,Primary
-100408,Open,N19 5BS,Islington,Primary
-100411,Open,N1 1SW,Islington,Primary
-100415,Open,EC1V 8BB,Islington,Primary
-100418,Open,N7 6DU,Islington,Primary
-100422,Open,N7 9QJ,Islington,Primary
-100425,Open,N1 1HX,Islington,Primary
-100426,Open,N1 0WF,Islington,Primary
-100428,Open,N1 9AZ,Islington,Primary
-100429,Open,N19 4RR,Islington,Primary
-100430,Open,N7 0HJ,Islington,Primary
-100432,Open,N8 9EG,Islington,Primary
-100434,Open,EC1Y 8JA,Islington,Primary
-100437,Open,N7 8JN,Islington,Primary
-100438,Open,N1 8BL,Islington,Primary
-100439,Open,N19 5RR,Islington,Primary
-100440,Open,N5 1DL,Islington,Primary
-100441,Open,N19 5NE,Islington,Primary
-100443,Open,EC1V 3SJ,Islington,Primary
-100444,Open,N19 4JF,Islington,Primary
-100446,Open,N1 2EP,Islington,Primary
-100447,Open,EC1V 0EU,Islington,Primary
-100448,Open,N1 0LB,Islington,Primary
-100449,Open,N5 2UX,Islington,Primary
-100450,Open,N4 3QW,Islington,Primary
-100455,Open,N5 1AR,Islington,Secondary
-100457,Open,N1 9QG,Islington,Secondary
-100458,Open,EC2A 4SH,Islington,Secondary
-100477,Open,SW10 0DT,Kensington and Chelsea,Primary
-100478,Open,W10 6DW,Kensington and Chelsea,Primary
-100479,Open,W10 5TW,Kensington and Chelsea,Primary
-100480,Open,SW5 0DJ,Kensington and Chelsea,Primary
-100481,Open,W11 2DF,Kensington and Chelsea,Primary
-100482,Open,W8 7PP,Kensington and Chelsea,Primary
-100483,Open,SW3 3AP,Kensington and Chelsea,Primary
-100485,Open,W10 6NF,Kensington and Chelsea,Primary
-100486,Open,SW10 0AY,Kensington and Chelsea,Primary
-100487,Open,W11 4EE,Kensington and Chelsea,Primary
-100488,Open,W11 1RQ,Kensington and Chelsea,Primary
-100489,Open,SW3 4AA,Kensington and Chelsea,Primary
-100490,Open,SW1X 9DE,Kensington and Chelsea,Primary
-100491,Open,SW3 6QH,Kensington and Chelsea,Primary
-100492,Open,W10 5EF,Kensington and Chelsea,Primary
-100493,Open,W8 6EJ,Kensington and Chelsea,Primary
-100494,Open,W11 4BJ,Kensington and Chelsea,Primary
-100495,Open,W11 4PG,Kensington and Chelsea,Primary
-100497,Open,W8 4SP,Kensington and Chelsea,Primary
-100499,Open,W10 5AW,Kensington and Chelsea,Primary
-100500,Open,SW10 9NA,Kensington and Chelsea,Primary
-100503,Open,W10 6EL,Kensington and Chelsea,Secondary
-100505,Open,W10 6EB,Kensington and Chelsea,Primary
-100556,Open,SW8 1NT,Lambeth,Primary
-100560,Open,SW4 0BZ,Lambeth,Primary
-100564,Open,SW16 5AN,Lambeth,Primary
-100566,Open,SW8 3EH,Lambeth,Primary
-100567,Open,SW12 0JA,Lambeth,Primary
-100572,Open,SE24 0BJ,Lambeth,Primary
-100574,Open,SE27 9RD,Lambeth,Primary
-100576,Open,SW4 6PH,Lambeth,Primary
-100577,Open,SE19 1PA,Lambeth,Primary
-100578,Open,SW2 4JP,Lambeth,Primary
-100582,Open,SW9 9TG,Lambeth,Primary
-100584,Open,SW2 5EF,Lambeth,Primary
-100585,Open,SW16 2UW,Lambeth,Primary
-100586,Open,SW12 0HW,Lambeth,Primary
-100588,Open,SE11 5LG,Lambeth,Primary
-100589,Open,SE11 6DS,Lambeth,Primary
-100591,Open,SW8 2TJ,Lambeth,Primary
-100593,Open,SW16 3HX,Lambeth,Primary
-100595,Open,SW2 3PW,Lambeth,Primary
-100597,Open,SE27 9RR,Lambeth,Primary
-100598,Open,SW4 6RP,Lambeth,Primary
-100601,Open,SW4 8LD,Lambeth,Primary
-100602,Open,SE27 0JF,Lambeth,Primary
-100604,Open,SW8 2HP,Lambeth,Primary
-100609,Open,SE11 4PH,Lambeth,Primary
-100610,Open,SW9 6HN,Lambeth,Primary
-100612,Open,SW4 0NU,Lambeth,Primary
-100613,Open,SW9 9DE,Lambeth,Primary
-100614,Open,SE5 0SX,Lambeth,Primary
-100615,Open,SW9 7HH,Lambeth,Primary
-100616,Open,SE24 0EL,Lambeth,Primary
-100619,Open,SE11 5SL,Lambeth,Primary
-100620,Open,SE24 0AY,Lambeth,Primary
-100621,Open,SW8 1EJ,Lambeth,Primary
-100622,Open,SW2 2RL,Lambeth,Primary
-100623,Open,SW9 0TQ,Lambeth,Primary
-100624,Open,SE19 3NY,Lambeth,Secondary
-100625,Open,SE11 5QY,Lambeth,Secondary
-100627,Open,SW9 6UL,Lambeth,Secondary
-100629,Open,SE11 5JA,Lambeth,Primary
-100631,Open,SW12 0LF,Lambeth,Primary
-100632,Open,SW16 2ET,Lambeth,Primary
-100633,Open,SW16 5SL,Lambeth,Primary
-100634,Open,SW9 0EN,Lambeth,Primary
-100636,Open,SW4 9QJ,Lambeth,Primary
-100637,Open,SW12 0AB,Lambeth,Secondary
-100638,Open,SW16 2HY,Lambeth,Secondary
-100671,Open,SE26 4AQ,Lewisham,Primary
-100672,Open,SE6 3LD,Lewisham,Primary
-100673,Open,SE12 0NB,Lewisham,Primary
-100674,Open,SE4 2BS,Lewisham,Primary
-100676,Open,SE12 0LF,Lewisham,Primary
-100677,Open,SE23 1AS,Lewisham,Primary
-100678,Open,SE8 5RJ,Lewisham,Primary
-100679,Open,BR1 5QL,Lewisham,Primary
-100680,Open,SE14 5LY,Lewisham,Primary
-100681,Open,SE6 3EN,Lewisham,Primary
-100683,Open,SE6 1PQ,Lewisham,Primary
-100684,Open,SE4 1HQ,Lewisham,Primary
-100685,Open,SE8 5LW,Lewisham,Primary
-100686,Open,SE26 5AD,Lewisham,Primary
-100687,Open,SE13 6EH,Lewisham,Primary
-100688,Open,SE6 4TP,Lewisham,Primary
-100689,Open,SE4 2DY,Lewisham,Primary
-100690,Open,SE26 6BB,Lewisham,Primary
-100691,Open,SE14 5JA,Lewisham,Primary
-100692,Open,BR1 5EA,Lewisham,Primary
-100693,Open,SE13 5LS,Lewisham,Primary
-100695,Open,SE8 4QB,Lewisham,Primary
-100696,Open,SE12 9RA,Lewisham,Primary
-100699,Open,BR1 4RP,Lewisham,Primary
-100700,Open,SE6 4NL,Lewisham,Primary
-100701,Open,SE6 2LA,Lewisham,Primary
-100703,Open,SE6 1NW,Lewisham,Primary
-100704,Open,SE23 1NH,Lewisham,Primary
-100705,Open,SE23 1NH,Lewisham,Primary
-100708,Open,SE6 1TG,Lewisham,Primary
-100709,Open,SE3 0TP,Lewisham,Primary
-100710,Open,SE23 3SB,Lewisham,Primary
-100711,Open,SE26 4BU,Lewisham,Primary
-100712,Open,SE8 5AE,Lewisham,Primary
-100713,Open,SE4 1DF,Lewisham,Primary
-100714,Open,SE23 3BP,Lewisham,Primary
-100715,Open,SE23 2PX,Lewisham,Primary
-100716,Open,SE8 4DX,Lewisham,Primary
-100717,Open,SE12 8NA,Lewisham,Primary
-100718,Open,SE23 2SP,Lewisham,Primary
-100719,Open,SE3 0TX,Lewisham,Primary
-100722,Open,BR1 5EP,Lewisham,Primary
-100723,Open,SE23 3HZ,Lewisham,Primary
-100724,Open,SE13 5SG,Lewisham,Primary
-100725,Open,SE6 3RD,Lewisham,Primary
-100726,Open,SE26 4LJ,Lewisham,Primary
-100728,Open,BR1 5RL,Lewisham,Primary
-100729,Open,SE8 3PH,Lewisham,Primary
-100730,Open,SE13 6NX,Lewisham,Primary
-100733,Open,SE13 6AL,Lewisham,Primary
-100737,Open,SE23 1PS,Lewisham,Primary
-100739,Open,SE6 2LD,Lewisham,Primary
-100740,Open,SE14 6AN,Lewisham,Secondary
-100741,Open,SE26 4RD,Lewisham,Secondary
-100745,Open,SE23 2XN,Lewisham,Secondary
-100748,Open,SE14 6TJ,Lewisham,Secondary
-100774,Open,SE16 7JD,Southwark,Primary
-100775,Open,SE15 4JP,Southwark,Primary
-100780,Open,SE15 1QP,Southwark,Primary
-100784,Open,SE17 3LE,Southwark,Primary
-100785,Open,SE5 9NF,Southwark,Primary
-100790,Open,SE22 0EP,Southwark,Primary
-100791,Open,SE1 4RP,Southwark,Primary
-100793,Open,SE22 9LA,Southwark,Primary
-100794,Open,SE15 2AR,Southwark,Primary
-100795,Open,SE16 3LA,Southwark,Primary
-100796,Open,SE15 3BU,Southwark,Primary
-100798,Open,SE5 0PQ,Southwark,Primary
-100800,Open,SE17 3TR,Southwark,Primary
-100801,Open,SE21 8NS,Southwark,Primary
-100803,Open,SE17 2HR,Southwark,Primary
-100808,Open,SE16 4PS,Southwark,Primary
-100809,Open,SE17 1DQ,Southwark,Primary
-100811,Open,SE1 3TD,Southwark,Primary
-100812,Open,SE16 2JH,Southwark,Primary
-100813,Open,SE1 2AE,Southwark,Primary
-100815,Open,SE17 1PT,Southwark,Primary
-100817,Open,SE1 5JT,Southwark,Primary
-100818,Open,SE15 1EF,Southwark,Primary
-100819,Open,SE16 7LP,Southwark,Primary
-100821,Open,SE5 8UH,Southwark,Primary
-100822,Open,SE1 3BW,Southwark,Primary
-100823,Open,SE21 7BU,Southwark,Primary
-100824,Open,SE17 1RB,Southwark,Primary
-100825,Open,SE15 5LP,Southwark,Primary
-100826,Open,SE15 1RQ,Southwark,Primary
-100827,Open,SE5 7TF,Southwark,Primary
-100829,Open,SE16 4SU,Southwark,Primary
-100830,Open,SE15 4DY,Southwark,Primary
-100834,Open,SE1 1NJ,Southwark,Primary
-100835,Open,SE1 6HA,Southwark,Primary
-100837,Open,SE16 5ED,Southwark,Primary
-100839,Open,SE17 2HH,Southwark,Primary
-100840,Open,SE1 1HG,Southwark,Primary
-100841,Open,SE16 6SD,Southwark,Primary
-100849,Open,SE1 4AN,Southwark,Secondary
-100853,Open,SE5 0TS,Southwark,Primary
-100854,Open,SE5 0TS,Southwark,Primary
-100855,Open,SE1 0RF,Southwark,Primary
-100857,Open,SE15 2EB,Southwark,Secondary
-100890,Open,E1 4PZ,Tower Hamlets,Primary
-100891,Open,E2 0NF,Tower Hamlets,Primary
-100892,Open,E3 3BT,Tower Hamlets,Primary
-100894,Open,E14 7NG,Tower Hamlets,Primary
-100895,Open,E1 0EH,Tower Hamlets,Primary
-100896,Open,E3 5QY,Tower Hamlets,Primary
-100898,Open,E14 3NE,Tower Hamlets,Primary
-100902,Open,E2 0JH,Tower Hamlets,Primary
-100903,Open,E2 0BP,Tower Hamlets,Primary
-100904,Open,E14 3QP,Tower Hamlets,Primary
-100906,Open,E1 4AX,Tower Hamlets,Primary
-100907,Open,E2 6LS,Tower Hamlets,Primary
-100908,Open,E2 6PP,Tower Hamlets,Primary
-100911,Open,E1 0QF,Tower Hamlets,Primary
-100912,Open,E3 3LL,Tower Hamlets,Primary
-100913,Open,E14 6DU,Tower Hamlets,Primary
-100914,Open,E2 9HE,Tower Hamlets,Primary
-100915,Open,E1 0EH,Tower Hamlets,Primary
-100916,Open,E3 5DN,Tower Hamlets,Primary
-100917,Open,E1 3BW,Tower Hamlets,Primary
-100920,Open,E14 6QD,Tower Hamlets,Primary
-100923,Open,E1 5RE,Tower Hamlets,Primary
-100927,Open,E3 4NE,Tower Hamlets,Primary
-100928,Open,E14 0EW,Tower Hamlets,Primary
-100930,Open,E1 5AR,Tower Hamlets,Primary
-100931,Open,E14 8LY,Tower Hamlets,Primary
-100934,Open,E1 5AD,Tower Hamlets,Primary
-100937,Open,E2 0LB,Tower Hamlets,Primary
-100938,Open,E14 7SS,Tower Hamlets,Primary
-100939,Open,E1 2ND,Tower Hamlets,Primary
-100940,Open,E1 1JP,Tower Hamlets,Primary
-100943,Open,E2 6ET,Tower Hamlets,Primary
-100944,Open,E1 6PU,Tower Hamlets,Primary
-100946,Open,E14 7TF,Tower Hamlets,Primary
-100949,Open,E3 3ER,Tower Hamlets,Primary
-100951,Open,E14 3RS,Tower Hamlets,Primary
-100953,Open,E2 9LR,Tower Hamlets,Primary
-100954,Open,E14 3EB,Tower Hamlets,Primary
-100958,Open,E3 4LA,Tower Hamlets,Primary
-100959,Open,E1 8HY,Tower Hamlets,Primary
-100960,Open,E1W 3QT,Tower Hamlets,Primary
-100961,Open,E14 6BB,Tower Hamlets,Primary
-100962,Open,E1 8DJ,Tower Hamlets,Primary
-100965,Open,E3 3QW,Tower Hamlets,Secondary
-100966,Open,E14 0RZ,Tower Hamlets,Secondary
-100967,Open,E2 0PX,Tower Hamlets,Secondary
-100972,Open,E2 6PR,Tower Hamlets,Secondary
-100973,Open,E1 5DJ,Tower Hamlets,Secondary
-100974,Open,E14 3DW,Tower Hamlets,Secondary
-100975,Open,E3 2AE,Tower Hamlets,Secondary
-100977,Open,E1 0RH,Tower Hamlets,Secondary
-100995,Open,SW12 8PP,Wandsworth,Primary
-100996,Open,SW18 2LR,Wandsworth,Primary
-100997,Open,SW18 3ER,Wandsworth,Primary
-101001,Open,SW15 2ED,Wandsworth,Primary
-101005,Open,SW18 3QQ,Wandsworth,Primary
-101006,Open,SW11 2LX,Wandsworth,Primary
-101009,Open,SW17 9TJ,Wandsworth,Primary
-101011,Open,SW11 6EF,Wandsworth,Primary
-101012,Open,SW11 6EF,Wandsworth,Primary
-101013,Open,SW15 1PN,Wandsworth,Primary
-101014,Open,SW11 5QR,Wandsworth,Primary
-101016,Open,SW16 6RJ,Wandsworth,Primary
-101018,Open,SW18 5JP,Wandsworth,Primary
-101019,Open,SW17 9SA,Wandsworth,Primary
-101020,Open,SW11 5UW,Wandsworth,Primary
-101021,Open,SW17 0TW,Wandsworth,Primary
-101022,Open,SW18 2SA,Wandsworth,Primary
-101024,Open,SW18 5ST,Wandsworth,Primary
-101026,Open,SW18 5TR,Wandsworth,Primary
-101027,Open,SW19 6QT,Wandsworth,Primary
-101028,Open,SW15 6XA,Wandsworth,Primary
-101029,Open,SW15 4LJ,Wandsworth,Primary
-101031,Open,SW19 6RY,Wandsworth,Primary
-101032,Open,SW19 6JP,Wandsworth,Primary
-101034,Open,SW15 1HL,Wandsworth,Primary
-101036,Open,SW12 8QJ,Wandsworth,Primary
-101037,Open,SW15 1AW,Wandsworth,Primary
-101038,Open,SW15 4AA,Wandsworth,Primary
-101042,Open,SW17 8PP,Wandsworth,Primary
-101043,Open,SW18 1AE,Wandsworth,Primary
-101044,Open,SW8 4JS,Wandsworth,Primary
-101045,Open,SW15 2QD,Wandsworth,Primary
-101046,Open,SW15 1BA,Wandsworth,Primary
-101047,Open,SW12 8DR,Wandsworth,Primary
-101048,Open,SW8 4EN,Wandsworth,Primary
-101049,Open,SW18 5SQ,Wandsworth,Primary
-101050,Open,SW15 5NX,Wandsworth,Primary
-101051,Open,SW19 6AD,Wandsworth,Primary
-101052,Open,SW17 8RW,Wandsworth,Primary
-101057,Open,SW17 8SG,Wandsworth,Primary
-101107,Open,NW8 7AL,Westminster,Primary
-101110,Open,W2 5TL,Westminster,Primary
-101111,Open,W9 2LR,Westminster,Primary
-101116,Open,W2 6JJ,Westminster,Primary
-101120,Open,W10 4DQ,Westminster,Primary
-101121,Open,W1W 7JJ,Westminster,Primary
-101122,Open,SW1P 2QQ,Westminster,Primary
-101123,Open,W1H 5HA,Westminster,Primary
-101125,Open,NW6 5XA,Westminster,Primary
-101126,Open,SW1W 8PF,Westminster,Primary
-101127,Open,WC2B 5SU,Westminster,Primary
-101128,Open,NW1 6LH,Westminster,Primary
-101129,Open,SW1V 3AG,Westminster,Primary
-101130,Open,W1K 2XH,Westminster,Primary
-101131,Open,W1D 7LF,Westminster,Primary
-101132,Open,W2 3QD,Westminster,Primary
-101134,Open,W9 3EJ,Westminster,Primary
-101135,Open,W2 5TF,Westminster,Primary
-101136,Open,W1H 1DL,Westminster,Primary
-101137,Open,W2 5PR,Westminster,Primary
-101138,Open,SW1P 2DG,Westminster,Primary
-101139,Open,W9 2AN,Westminster,Primary
-101140,Open,SW1W 0NL,Westminster,Primary
-101141,Open,W9 2JD,Westminster,Primary
-101143,Open,W1U 4DF,Westminster,Primary
-101147,Open,NW1 5NS,Westminster,Primary
-101154,Open,NW6 5SN,Westminster,Secondary
-102078,Open,N22 6RA,Haringey,Primary
-102079,Open,N22 6RA,Haringey,Primary
-102080,Open,N11 2QG,Haringey,Primary
-102081,Open,N11 2QG,Haringey,Primary
-102084,Open,N8 7AF,Haringey,Primary
-102085,Open,N8 7AF,Haringey,Primary
-102087,Open,N17 8LB,Haringey,Primary
-102091,Open,N15 4PW,Haringey,Primary
-102092,Open,N6 4ED,Haringey,Primary
-102094,Open,N17 8NN,Haringey,Primary
-102097,Open,N10 1HS,Haringey,Primary
-102098,Open,N10 3BP,Haringey,Primary
-102106,Open,N8 8NH,Haringey,Primary
-102107,Open,N8 8NH,Haringey,Primary
-102110,Open,N4 1BA,Haringey,Primary
-102111,Open,N4 1BA,Haringey,Primary
-102115,Open,N15 3RT,Haringey,Primary
-102121,Open,N8 8DN,Haringey,Primary
-102124,Open,N15 4EA,Haringey,Primary
-102125,Open,N17 0PT,Haringey,Primary
-102127,Open,N17 9PP,Haringey,Primary
-102128,Open,N22 7UT,Haringey,Primary
-102129,Open,N15 6UX,Haringey,Primary
-102130,Open,N8 9WP,Haringey,Primary
-102131,Open,N17 6HW,Haringey,Primary
-102132,Open,N4 4RR,Haringey,Primary
-102135,Open,N6 4BG,Haringey,Primary
-102136,Open,N10 3JA,Haringey,Primary
-102139,Open,N8 7BU,Haringey,Primary
-102142,Open,N10 1PS,Haringey,Primary
-102143,Open,N17 8AZ,Haringey,Primary
-102144,Open,N15 6ND,Haringey,Primary
-102146,Open,N22 7SZ,Haringey,Primary
-102149,Open,N17 8AZ,Haringey,Primary
-102150,Open,N11 2AF,Haringey,Primary
-102152,Open,N15 3HD,Haringey,Primary
-102153,Open,N8 9JF,Haringey,Secondary
-102154,Open,N8 8RN,Haringey,Secondary
-102156,Open,N10 1NE,Haringey,Secondary
-102157,Open,N15 6EB,Haringey,Secondary
-102709,Open,E6 2BX,Newham,Primary
-102710,Open,E12 6AR,Newham,Primary
-102711,Open,E6 3LB,Newham,Primary
-102712,Open,E15 2JQ,Newham,Primary
-102716,Open,E12 5QJ,Newham,Primary
-102721,Open,E7 0JW,Newham,Primary
-102722,Open,E7 0NJ,Newham,Primary
-102723,Open,E13 0HE,Newham,Primary
-102725,Open,E16 1FZ,Newham,Primary
-102728,Open,E6 2DU,Newham,Primary
-102729,Open,E15 3BA,Newham,Primary
-102730,Open,E15 1SL,Newham,Primary
-102735,Open,E7 9BY,Newham,Primary
-102736,Open,E15 4AE,Newham,Primary
-102740,Open,E6 3SQ,Newham,Primary
-102742,Open,E12 6TH,Newham,Primary
-102745,Open,E7 8NL,Newham,Primary
-102746,Open,E16 4NH,Newham,Primary
-102748,Open,E6 1AS,Newham,Primary
-102751,Open,E6 5NA,Newham,Primary
-102752,Open,E15 1JY,Newham,Primary
-102755,Open,E13 9JH,Newham,Primary
-102759,Open,E6 5UP,Newham,Primary
-102763,Open,E12 6QX,Newham,Primary
-102764,Open,E7 9DA,Newham,Primary
-102765,Open,E15 3QG,Newham,Primary
-102766,Open,E16 1JB,Newham,Primary
-102776,Open,E12 6JB,Newham,Secondary
-102786,Open,E7 8HU,Newham,Secondary
-102787,Open,E7 9QD,Newham,Secondary
-121792,Open,N16 6DH,Hackney,Primary
-130302,Open,E5 0LE,Hackney,Primary
-130303,Open,E8 3EN,Hackney,Primary
-130342,Open,EC1R 4PQ,Camden,Primary
-130352,Open,E14 3RP,Tower Hamlets,Primary
-130358,Open,N22 6UH,Haringey,Primary
-130381,Open,E7 8ED,Newham,Primary
-130912,Open,W9 2DR,Westminster,Secondary
-130918,Open,SE5 8HP,Southwark,Primary
-130932,Open,N16 0NX,Hackney,Primary
-130995,Open,E6 3DW,Newham,Primary
-131062,Open,E8 2EY,Hackney,Secondary
-131096,Open,N4 3EX,Haringey,Primary
-131141,Open,N1 5JD,Hackney,Primary
-131247,Open,SW4 9LB,Lambeth,Primary
-131262,Open,W2 5EZ,Westminster,Secondary
-131325,Open,N1 4ND,Islington,Primary
-131340,Open,SW9 8UE,Lambeth,Primary
-131478,Open,N22 5HJ,Haringey,Primary
-131520,Open,SW11 2TD,Wandsworth,Primary
-131595,Open,N22 5PS,Haringey,Primary
-131609,Open,E2 8BA,Hackney,Secondary
-131690,Open,N4 3LS,Islington,Secondary
-131706,Open,N16 9EX,Hackney,Primary
-131731,Open,N17 6UH,Haringey,Primary
-131737,Open,E1 1NT,Tower Hamlets,Primary
-131740,Open,N1 3EE,Islington,Primary
-131747,Open,SE16 3TZ,Southwark,Secondary
-131752,Open,W12 0HR,Hammersmith and Fulham,Secondary
-131757,Open,N15 3QR,Haringey,Secondary
-131773,Open,N1 2UT,Islington,Primary
-131824,Open,SW16 2JQ,Lambeth,Primary
-131842,Open,EC1R 1YJ,Islington,Primary
-131843,Open,SE5 7QH,Southwark,Primary
-131871,Open,N10 3ST,Haringey,Primary
-131874,Open,SE11 5BZ,Lambeth,Primary
-131879,Open,N17 7AB,Haringey,Primary
-131936,Open,E1 0BD,Tower Hamlets,Primary
-132058,Open,E6 5JG,Newham,Secondary
-132137,Open,E9 6DX,Hackney,Primary
-132245,Open,NW6 4LB,Camden,Primary
-132253,Open,N15 5QE,Haringey,Primary
-132711,Open,SE22 0NR,Southwark,Secondary
-132789,Open,E12 5PY,Newham,Primary
-132812,Open,E13 9DQ,Newham,Primary
-133386,Open,N8 7NU,Haringey,Secondary
-133574,Open,E14 6DZ,Tower Hamlets,Primary
-133599,Open,N16 6UB,Hackney,Secondary
-133662,Open,SW2 2JE,Lambeth,Primary
-133707,Open,N17 9RB,Haringey,Primary
-134009,Open,W6 7BL,Hammersmith and Fulham,Primary
-134041,Open,SW17 0DS,Wandsworth,Primary
-134160,Open,E3 2AB,Tower Hamlets,Primary
-134222,Open,SE1 5LA,Southwark,Secondary
-134225,Open,SE15 5DZ,Southwark,Secondary
-134273,Open,W14 9PA,Hammersmith and Fulham,Primary
-134507,Open,SW2 3ES,Lambeth,Primary
-134680,Open,N15 3AS,Haringey,Primary
-134681,Open,N8 0NU,Haringey,Primary
-134693,Open,E5 8JY,Hackney,Secondary
-134815,Open,SW4 9ET,Lambeth,Secondary
-134903,Open,SE15 3PD,Southwark,Primary
-135070,Open,BR1 5EB,Lewisham,Secondary
-135073,Open,SE14 5SF,Lewisham,Secondary
-135315,Open,SE1 5UJ,Southwark,Secondary
-135316,Open,SW15 2UT,Wandsworth,Secondary
-135389,Open,SE24 0QN,Lambeth,Secondary
-135531,Open,SW10 0AB,Kensington and Chelsea,Secondary
-135587,Open,N1 8PQ,Islington,Secondary
-135614,Open,SW4 9PA,Lambeth,Primary
-135676,Open,SW1V 3AT,Westminster,Secondary
-135762,Open,SW11 3DQ,Wandsworth,Secondary
-135816,Open,SE22 0AT,Southwark,Secondary
-135835,Open,E9 6EA,Hackney,Secondary
-136137,Open,N4 1SY,Hackney,Secondary
-136172,Open,W12 9JD,Hammersmith and Fulham,Secondary
-136298,Open,SE24 9JH,Southwark,Secondary
-136309,Open,SE21 8SQ,Southwark,Secondary
-136450,Open,SW9 0AL,Lambeth,Secondary
-136665,Open,SE21 7AL,Southwark,Primary
-136669,Open,E6 3SQ,Newham,Secondary
-136750,Open,W6 9LP,Hammersmith and Fulham,Secondary
-136807,Open,NW3 7SU,Camden,Primary
-136808,Open,N10 1NR,Haringey,Primary
-136883,Open,SW12 8JZ,Wandsworth,Secondary
-136978,Open,E7 9PR,Newham,Secondary
-137005,Open,SW17 9BU,Wandsworth,Secondary
-137016,Open,E14 3BA,Tower Hamlets,Primary
-137157,Open,SW6 1RX,Hammersmith and Fulham,Secondary
-137181,Open,NW3 3AQ,Camden,Secondary
-137295,Open,SW2 5BL,Lambeth,Primary
-137323,Open,W9 2JY,Westminster,Primary
-137331,Open,W12 0QT,Hammersmith and Fulham,Primary
-137353,Open,W1U 5BA,Westminster,Secondary
-137393,Open,N1 8SJ,Islington,Primary
-137413,Open,SE15 5TD,Southwark,Primary
-137430,Open,SE1 7RH,Lambeth,Primary
-137441,Open,SE8 4RJ,Lewisham,Primary
-137442,Open,E5 0RB,Hackney,Secondary
-137531,Open,N11 2AZ,Haringey,Secondary
-137563,Open,SW11 6PR,Wandsworth,Primary
-137566,Open,N1 2GG,Islington,Primary
-137648,Open,SE16 5LQ,Southwark,Primary
-137682,Open,E14 7PQ,Tower Hamlets,Primary
-137745,Open,N22 5QJ,Haringey,Secondary
-137789,Open,E2 6NW,Tower Hamlets,Secondary
-137935,Open,W6 7DG,Hammersmith and Fulham,Secondary
-137954,Open,SW2 3PW,Lambeth,Secondary
-138202,Open,E1 2DA,Tower Hamlets,Secondary
-138267,Open,SW11 6BF,Wandsworth,Secondary
-138276,Open,E1 4PW,Tower Hamlets,Primary
-138312,Open,SW1E 5HJ,Westminster,Secondary
-138313,Open,SW1P 2DY,Westminster,Secondary
-138446,Open,N17 9XT,Haringey,Primary
-138447,Open,N15 4AB,Haringey,Primary
-138588,Open,N22 6LH,Haringey,Primary
-138589,Open,N22 8ES,Haringey,Primary
-138607,Open,SW6 4UN,Hammersmith and Fulham,Secondary
-138680,Open,W12 7AJ,Hammersmith and Fulham,Primary
-138681,Open,SW15 3DG,Wandsworth,Secondary
-138682,Open,SW18 5JU,Wandsworth,Secondary
-138960,Open,SE5 0RP,Southwark,Secondary
-139169,Open,N15 5JG,Haringey,Primary
-139175,Open,N22 8HE,Haringey,Primary
-139176,Open,N17 0HH,Haringey,Primary
-139177,Open,N17 0TU,Haringey,Primary
-139240,Open,N17 9EJ,Haringey,Primary
-139362,Open,N22 5HN,Haringey,Secondary
-139364,Open,SW6 6SN,Hammersmith and Fulham,Secondary
-139365,Open,SW6 6BP,Hammersmith and Fulham,Secondary
-139369,Open,W9 1RB,Westminster,Secondary
-139423,Open,E14 0DE,Tower Hamlets,Primary
-139546,Open,W6 0LB,Hammersmith and Fulham,Primary
-139587,Open,SE16 4EE,Southwark,Secondary
-139592,Open,SW17 8HE,Wandsworth,Primary
-139616,Open,N22 7ST,Haringey,Secondary
-139645,Open,W10 5AT,Kensington and Chelsea,Primary
-139659,Open,SE1 7HS,Lambeth,Secondary
-139672,Open,SE14 5SF,Lewisham,Primary
-139687,Open,SW15 4EU,Wandsworth,Primary
-139718,Open,SE5 0UB,Southwark,Secondary
-139775,Open,SW17 7BS,Wandsworth,Primary
-139814,Open,E9 6EJ,Hackney,Primary
-139820,Open,W12 7PT,Hammersmith and Fulham,Primary
-139824,Open,W10 4LB,Westminster,Primary
-139837,Open,N1C 4PF,Camden,Primary
-139842,Open,SW17 0AQ,Wandsworth,Secondary
-139898,Open,SW1V 3AT,Westminster,Primary
-139907,Open,SE24 9JE,Southwark,Primary
-140050,Open,NW8 8LN,Westminster,Primary
-140064,Open,E14 0PT,Tower Hamlets,Primary
-140096,Open,E3 5LD,Tower Hamlets,Primary
-140210,Open,E9 7HD,Hackney,Secondary
-140212,Open,W10 6EX,Kensington and Chelsea,Secondary
-140213,Open,W14 8PU,Kensington and Chelsea,Primary
-140221,Open,SE17 2TP,Southwark,Secondary
-140222,Open,SW15 1LY,Wandsworth,Primary
-140423,Open,SW18 4EQ,Wandsworth,Primary
-140426,Open,E15 2GW,Hackney,Primary
-140495,Open,N6 5EP,Islington,Primary
-140507,Open,SE15 2SW,Southwark,Primary
-140682,Open,SW11 3NE,Wandsworth,Primary
-140686,Open,N1C 4BT,Camden,Primary
-140811,Open,W6 0LB,Hammersmith and Fulham,Primary
-140884,Open,W2 1QZ,Westminster,Secondary
-140937,Open,SE22 8HA,Southwark,Primary
-140966,Open,SW2 1QS,Lambeth,Secondary
-140985,Open,SW11 5AP,Wandsworth,Secondary
-141039,Open,E14 3EB,Tower Hamlets,Primary
-141082,Open,E16 2BB,Newham,Secondary
-141133,Open,E1 1RD,Tower Hamlets,Secondary
-141135,Open,SW6 5BD,Hammersmith and Fulham,Secondary
-141209,Open,N17 8EY,Haringey,Primary
-141296,Open,E12 5PB,Newham,Primary
-141576,Open,E5 8RN,Hackney,Primary
-141617,Open,SW6 3ED,Hammersmith and Fulham,Secondary
-141666,Open,SE15 6FL,Southwark,Primary
-141685,Open,SW6 2LG,Hammersmith and Fulham,Primary
-141750,Open,E8 2DJ,Hackney,Primary
-141808,Open,SW18 5JR,Wandsworth,Secondary
-141902,Open,W12 9PT,Hammersmith and Fulham,Primary
-141925,Open,E13 8DW,Newham,Primary
-141927,Open,E16 3DT,Newham,Primary
-141931,Open,W14 8BZ,Kensington and Chelsea,Secondary
-142090,Open,SE15 4DG,Southwark,Primary
-142112,Open,N1 5FR,Hackney,Primary
-142178,Open,SE22 8EY,Southwark,Secondary
-142255,Open,E8 1AS,Hackney,Primary
-142256,Open,SW6 4LY,Hammersmith and Fulham,Primary
-142267,Open,E13 0RJ,Newham,Primary
-142456,Open,SE12 0SJ,Lewisham,Primary
-142632,Open,E13 0JW,Newham,Primary
-142644,Open,E15 4LP,Newham,Secondary
-142708,Open,E6 1NT,Newham,Primary
-142726,Open,E13 0ES,Newham,Primary
-142875,Open,SE16 3PB,Southwark,Primary
-142879,Open,E14 9GL,Tower Hamlets,Secondary
-142903,Open,E16 2RD,Newham,Secondary
-143020,Open,EC1Y 0AE,Islington,Primary
-143129,Open,W12 0RQ,Hammersmith and Fulham,Secondary
-143212,Open,SW6 6ND,Hammersmith and Fulham,Primary
-143213,Open,SW6 1JU,Hammersmith and Fulham,Primary
-143214,Open,SW6 3BN,Hammersmith and Fulham,Primary
-143274,Open,E7 9BB,Newham,Secondary
-143276,Open,E15 3AF,Newham,Primary
-143277,Open,E13 8LF,Newham,Primary
-143629,Open,E1 2JP,Tower Hamlets,Secondary
-143659,Open,N19 3EU,Islington,Secondary
-143668,Open,E16 2ZA,Newham,Primary
-143716,Open,E1W 2AD,Tower Hamlets,Secondary
-143739,Open,SW18 4QG,Wandsworth,Primary
-143756,Open,N1 5JU,Hackney,Secondary
-143881,Open,E13 8SA,Newham,Primary
-143882,Open,E6 1QP,Newham,Primary
-143883,Open,E16 2DP,Newham,Primary
-144139,Open,E15 3DN,Newham,Primary
-144140,Open,E16 4BD,Newham,Primary
-144141,Open,E12 6NN,Newham,Primary
-144142,Open,E13 0AG,Newham,Primary
-144235,Open,E14 7AD,Tower Hamlets,Primary
-144236,Open,E14 6DN,Tower Hamlets,Primary
-144308,Open,SE21 8LR,Lambeth,Primary
-144309,Open,SE27 9BZ,Lambeth,Secondary
-144527,Open,E16 2AW,Newham,Primary
-144621,Open,SW4 0AJ,Wandsworth,Primary
-144699,Open,E3 4BU,Tower Hamlets,Primary
-144700,Open,E1 4SD,Tower Hamlets,Secondary
-144756,Open,E3 2RU,Tower Hamlets,Secondary
-144900,Open,N17 0PG,Haringey,Secondary
-144962,Open,N5 2EQ,Islington,Secondary
-145030,Open,SW15 4PD,Wandsworth,Primary
-145060,Open,SW8 4JB,Wandsworth,Primary
-145087,Open,E16 3PB,Newham,Primary
-145088,Open,E7 9AW,Newham,Primary
-145113,Open,E13 8SJ,Newham,Secondary
-145126,Open,NW8 0NL,Westminster,Secondary
-145130,Open,SE22 8HG,Southwark,Primary
-145235,Open,E12 6TT,Newham,Primary
-145280,Open,SW11 5DT,Wandsworth,Primary
-145313,Open,SE16 6AT,Southwark,Secondary
-145362,Open,E7 8JY,Newham,Primary
-145363,Open,E16 1LN,Newham,Primary
-145364,Open,E6 2SE,Newham,Primary
-145365,Open,E16 3HD,Newham,Primary
-145366,Open,E6 6AD,Newham,Primary
-145367,Open,E13 9NE,Newham,Primary
-145368,Open,E6 6WG,Newham,Primary
-145410,Open,E16 3HS,Newham,Secondary
-145609,Open,N16 5RP,Hackney,Secondary
-145610,Open,N16 5RP,Hackney,Primary
-145614,Open,SW2 3NF,Lambeth,Primary
-145615,Open,SW16 6NP,Lambeth,Primary
-145616,Open,SE27 0DZ,Lambeth,Primary
-145621,Open,SE23 2NE,Lewisham,Primary
-145627,Open,E7 8PF,Newham,Primary
-145730,Open,E5 9AE,Hackney,Primary
-145731,Open,N7 9LF,Islington,Primary
-145888,Open,SE16 3FN,Southwark,Primary
-146100,Open,SE4 2HH,Lewisham,Primary
-146117,Open,SE17 2JY,Southwark,Primary
-146191,Open,SW17 8HQ,Wandsworth,Primary
-146214,Open,SW11 2AA,Wandsworth,Primary
-146221,Open,SE14 6DG,Lewisham,Primary
-146368,Open,SW9 6HF,Lambeth,Primary
-146669,Open,SE17 3DT,Southwark,Primary
-146915,Open,E6 5XG,Newham,Primary
-147073,Open,SE1 0EX,Southwark,Secondary
-147327,Open,SW12 9SS,Wandsworth,Primary
-147335,Open,E13 9AX,Newham,Primary
-147336,Open,E15 1HD,Newham,Primary
-147355,Open,SE14 5RD,Lewisham,Primary
-147363,Open,BR1 5LW,Lewisham,Primary
-147543,Open,SW4 8LD,Lambeth,Secondary
-147653,Open,E8 4DL,Hackney,Secondary
-148003,Open,SE6 3QW,Lewisham,Secondary
-148012,Open,SE1 1AF,Southwark,Primary
-148025,Open,E7 9PN,Newham,Primary
-148224,Open,E16 4NP,Newham,Secondary
-148438,Open,SW3 2QT,Kensington and Chelsea,Primary
-148574,Open,SE5 8SN,Southwark,Primary
-148623,Open,E15 2QS,Newham,Primary
-148681,Open,E14 8AQ,Tower Hamlets,Primary
-148769,Open,E1 7RQ,Tower Hamlets,Primary
-148901,Open,E16 4DD,Newham,Secondary
-148902,Open,E13 9AE,Newham,Secondary
-148972,Open,E12 6HB,Newham,Primary
-149084,Open,E14 9ZR,Tower Hamlets,Primary
-149346,Open,SE16 4UP,Southwark,Primary
-149369,Open,SE1 6EX,Southwark,Secondary
-149431,Open,E3 3DU,Newham,Secondary
-149488,Open,W9 1DF,Westminster,Primary
-149543,Open,SW17 7DF,Wandsworth,Secondary
-149556,Open,SW2 3NJ,Lambeth,Primary
-149604,Open,SE22 8AB,Southwark,Primary
-149605,Open,SE16 2PE,Southwark,Primary
-149632,Open,W8 7AF,Kensington and Chelsea,Secondary
-149641,Open,W12 7QT,Hammersmith and Fulham,Primary
-149901,Open,E2 8LS,Hackney,Secondary
-150082,Open,W6 8QE,Hammersmith and Fulham,Primary
-150319,Open,SE4 1LE,Lewisham,Secondary
-150522,Open,N4 3NW,Islington,Primary
-150550,Open,N1 6QN,Hackney,Primary
-150551,Open,SE22 0LA,Southwark,Primary
-150552,Open,SE26 5SE,Lewisham,Primary
-150554,Open,E1 5AW,Tower Hamlets,Primary
-150596,Open,E2 9JY,Tower Hamlets,Primary
-150604,Open,E9 6LG,Hackney,Secondary
-150605,Open,BR1 5PZ,Lewisham,Secondary
-150606,Open,E1 0LB,Tower Hamlets,Secondary
-150662,Open,E2 7RG,Tower Hamlets,Primary
-150664,Open,E6 6EE,Newham,Primary
-150691,Open,SE6 2SE,Lewisham,Secondary
-150830,Open,SW9 7UA,Lambeth,Primary
-150889,Open,SE1 9NA,Lambeth,Secondary
-150937,Open,SE16 4UN,Southwark,Secondary
-151008,Open,SW3 2QS,Kensington and Chelsea,Secondary
-151009,Open,SE14 6AD,Lewisham,Primary
-151010,Open,SE26 4HH,Lewisham,Primary
-151011,Open,SE8 4ED,Lewisham,Primary
-151012,Open,SE16 2TY,Southwark,Primary
-151013,Open,E1W 2PT,Tower Hamlets,Primary
-151310,Open,SW1P 4HR,Westminster,Primary
-151500,Open,SE1 6HR,Southwark,Primary
-151527,Open,SW17 7PP,Wandsworth,Primary
-151731,Open,SW7 5AQ,Kensington and Chelsea,Primary
-151832,Open,E2 7NQ,Tower Hamlets,Primary
-151990,Open,N6 5LY,Islington,Secondary
-152267,Open,E6 1DG,Newham,Secondary
-152286,Open,N15 5RE,Haringey,Primary
-152287,Open,N15 5RE,Haringey,Primary
-152337,Open,N7 0JG,Islington,Secondary
-152443,Open,SW1P 1EP,Westminster,Primary
+100000,The Aldgate School,EC3A 5DE,City of London,Primary
+100008,Argyle Primary School,WC1H 9EG,Camden,Primary
+100009,West Hampstead Primary School,NW6 1QL,Camden,Primary
+100010,Brecknock Primary School,NW1 9AL,Camden,Primary
+100011,Brookfield Primary School,N19 5DH,Camden,Primary
+100013,Edith Neville Primary School,NW1 1HQ,Camden,Primary
+100014,Fleet Primary School,NW3 2QT,Camden,Primary
+100015,Hawley Primary School,NW1 8RP,Camden,Primary
+100018,Netley Primary School,NW1 3EX,Camden,Primary
+100019,New End Primary School,NW3 1HU,Camden,Primary
+100020,Primrose Hill School,NW1 8JL,Camden,Primary
+100021,Rhyl Community Primary School,NW5 3HB,Camden,Primary
+100022,Richard Cobden Primary School,NW1 0LL,Camden,Primary
+100023,Torriano Primary School,NW5 2SJ,Camden,Primary
+100025,Gospel Oak Primary School,NW3 2JB,Camden,Primary
+100026,Fitzjohn's Primary School,NW3 6NP,Camden,Primary
+100027,Eleanor Palmer Primary School,NW5 2JA,Camden,Primary
+100028,"Christ Church Primary School, Hampstead",NW3 1JH,Camden,Primary
+100029,Christ Church School,NW1 4BD,Camden,Primary
+100030,Emmanuel Church of England Primary School,NW6 1TF,Camden,Primary
+100031,Hampstead Parochial Church of England Primary School,NW3 6TX,Camden,Primary
+100032,"Holy Trinity CofE Primary School, NW3",NW3 5SQ,Camden,Primary
+100033,"Holy Trinity and Saint Silas CofE Primary School, NW1",NW1 8DE,Camden,Primary
+100034,Kentish Town Church of England Primary School,NW5 2TU,Camden,Primary
+100035,Rosary Catholic Primary School,NW3 2AE,Camden,Primary
+100036,St Alban's Church of England Primary School,EC1N 7SD,Camden,Primary
+100040,St George the Martyr Church of England Primary School,WC1N 2NX,Camden,Primary
+100041,St Josephs Catholic Primary School,WC2B 5NA,Camden,Primary
+100042,St Mary's Kilburn Church of England Primary School,NW6 4PG,Camden,Primary
+100043,St Mary and St Pancras Church of England Primary School,NW1 1QP,Camden,Primary
+100045,St Patrick's Catholic Primary School,NW5 3AH,Camden,Primary
+100046,St Paul's Church of England Primary School,NW3 3DS,Camden,Primary
+100047,St Eugene de Mazenod Roman Catholic Primary School,NW6 4LS,Camden,Primary
+100048,Our Lady Roman Catholic Primary School,NW1 0DP,Camden,Primary
+100049,Haverstock School,NW3 2BQ,Camden,Secondary
+100050,Parliament Hill School,NW5 1RL,Camden,Secondary
+100051,Regent High School,NW1 1RX,Camden,Secondary
+100052,Hampstead School,NW2 3RT,Camden,Secondary
+100053,Acland Burghley School,NW5 1UJ,Camden,Secondary
+100054,The Camden School for Girls,NW5 2DB,Camden,Secondary
+100055,Maria Fidelis Catholic School FCJ,NW1 1LY,Camden,Secondary
+100056,William Ellis School,NW5 1RN,Camden,Secondary
+100059,La Sainte Union Catholic Secondary School,NW5 1RP,Camden,Secondary
+100218,Berger Primary School,E9 6HB,Hackney,Primary
+100223,Daubeney Primary School,E5 0EG,Hackney,Primary
+100225,Gainsborough Primary School,E9 5ND,Hackney,Primary
+100229,Lauriston School,E9 7JS,Hackney,Primary
+100230,London Fields Primary School,E8 3RL,Hackney,Primary
+100231,Millfields Community School,E5 0SH,Hackney,Primary
+100232,Morningside Primary School,E9 6LL,Hackney,Primary
+100234,Orchard Primary School,E9 7BB,Hackney,Primary
+100235,Queensbridge Primary School,E8 4ET,Hackney,Primary
+100239,Princess May Primary School,N16 8DF,Hackney,Primary
+100240,Sebright School,E2 8QH,Hackney,Primary
+100241,Shacklewell Primary School,E8 2EA,Hackney,Primary
+100242,Southwold Primary School,E5 9NL,Hackney,Primary
+100243,Thomas Fairchild Community School,N1 7HA,Hackney,Primary
+100245,Shoreditch Park Primary School,N1 5JN,Hackney,Primary
+100248,Woodberry Down Community Primary School,N4 1SY,Hackney,Primary
+100250,Kingsmead Primary School,E9 5PP,Hackney,Primary
+100252,Grasmere Primary School,N16 9PD,Hackney,Primary
+100253,Jubilee Primary School,N16 6NR,Hackney,Primary
+100254,Nightingale Primary School,E5 8NA,Hackney,Primary
+100256,Harrington Hill Primary School,E5 9JG,Hackney,Primary
+100257,Holmleigh Primary School,N16 5ED,Hackney,Primary
+100258,Grazebrook Primary School,N16 0QP,Hackney,Primary
+100259,Parkwood Primary School,N4 2HQ,Hackney,Primary
+100260,Benthal Primary School,N16 7AU,Hackney,Primary
+100261,Mandeville Primary School,E5 0BT,Hackney,Primary
+100263,Holy Trinity Church of England Primary School,E8 3DY,Hackney,Primary
+100264,Our Lady and St Joseph Catholic Primary School,N1 4JB,Hackney,Primary
+100266,St John the Baptist Voluntary Aided Church of England Primary School,N1 6JG,Hackney,Primary
+100267,St Matthias Church of England Primary School,N16 8DD,Hackney,Primary
+100269,St. Paul's With St. Michael's CofE Primary School,E8 4PB,Hackney,Primary
+100270,St John of Jerusalem Church of England Primary School,E9 7JF,Hackney,Primary
+100274,St Scholastica's Catholic Primary School,E5 8BS,Hackney,Primary
+100275,Simon Marks Jewish Primary School,N16 6PD,Hackney,Primary
+100279,Stoke Newington School and Sixth Form,N16 9EX,Hackney,Secondary
+100282,All Saints Catholic High School,N16 5AF,Hackney,Secondary
+100284,The Urswick School - A Church of England Secondary School,E9 6NR,Hackney,Secondary
+100321,Addison Primary School,W14 0DT,Hammersmith and Fulham,Primary
+100322,Avonmore Primary School,W14 9LY,Hammersmith and Fulham,Primary
+100324,Brackenbury Primary School,W6 0BA,Hammersmith and Fulham,Primary
+100326,Miles Coverdale Primary School,W12 8JJ,Hammersmith and Fulham,Primary
+100328,Flora Gardens Primary School,W6 7PZ,Hammersmith and Fulham,Primary
+100331,Kenmont Primary School,NW10 6AL,Hammersmith and Fulham,Primary
+100334,Melcombe Primary School,W6 9ER,Hammersmith and Fulham,Primary
+100335,Old Oak Primary School,W12 0AS,Hammersmith and Fulham,Primary
+100338,Sir John Lillie Primary School,SW6 7LN,Hammersmith and Fulham,Primary
+100340,Wendell Park Primary School,W12 9LB,Hammersmith and Fulham,Primary
+100341,Wormholt Park Primary School,W12 0SR,Hammersmith and Fulham,Primary
+100344,All Saints CofE Primary School,SW6 6ED,Hammersmith and Fulham,Primary
+100345,Holy Cross RC School,SW6 4BL,Hammersmith and Fulham,Primary
+100346,John Betts Primary School,W6 0UA,Hammersmith and Fulham,Primary
+100349,St John's Walham Green Church of England Primary School,SW6 6AS,Hammersmith and Fulham,Primary
+100350,St Mary's Catholic Primary School,W14 0LT,Hammersmith and Fulham,Primary
+100351,St Paul's CofE Primary School,W6 9BP,Hammersmith and Fulham,Primary
+100352,St Peter's Primary School,W6 9BA,Hammersmith and Fulham,Primary
+100353,St Stephen's CofE Primary School,W12 8LH,Hammersmith and Fulham,Primary
+100354,Good Shepherd RC Primary School,W12 9BY,Hammersmith and Fulham,Primary
+100357,St Thomas of Canterbury Catholic Primary School,SW6 7HB,Hammersmith and Fulham,Primary
+100397,Ambler Primary School and Children's Centre,N4 2DR,Islington,Primary
+100402,Drayton Park Primary School,N5 1PJ,Islington,Primary
+100403,Duncombe Primary School,N19 4JA,Islington,Primary
+100405,Gillespie Primary School,N5 1LH,Islington,Primary
+100406,Grafton Primary School,N7 6AR,Islington,Primary
+100407,Hanover Primary School,N1 8BD,Islington,Primary
+100408,Hargrave Park Primary School,N19 5BS,Islington,Primary
+100411,Laycock Primary School,N1 1SW,Islington,Primary
+100415,Moreland Primary School,EC1V 8BB,Islington,Primary
+100418,Pakeman Primary School,N7 6DU,Islington,Primary
+100422,Robert Blair School and Children's Centre,N7 9QJ,Islington,Primary
+100425,Thornhill Primary School,N1 1HX,Islington,Primary
+100426,Vittoria Primary School,N1 0WF,Islington,Primary
+100428,Winton Primary School,N1 9AZ,Islington,Primary
+100429,Yerbury Primary School,N19 4RR,Islington,Primary
+100430,Tufnell Park Primary School,N7 0HJ,Islington,Primary
+100432,Ashmount Primary School,N8 9EG,Islington,Primary
+100434,Prior Weston Primary School and Children's Centre,EC1Y 8JA,Islington,Primary
+100437,Sacred Heart Catholic Primary School,N7 8JN,Islington,Primary
+100438,St John Evangelist Catholic Primary School,N1 8BL,Islington,Primary
+100439,St John's Upper Holloway CofE Primary School,N19 5RR,Islington,Primary
+100440,St John's Highbury Vale CofE Primary School,N5 1DL,Islington,Primary
+100441,St Joseph's Catholic Primary School,N19 5NE,Islington,Primary
+100443,St Luke's CofE Primary School,EC1V 3SJ,Islington,Primary
+100444,St Mark's CofE Primary School,N19 4JF,Islington,Primary
+100446,St Mary's CofE Primary School,N1 2EP,Islington,Primary
+100447,St Peter and St Paul Catholic Primary School,EC1V 0EU,Islington,Primary
+100448,St Andrew's (Barnsbury) CofE Primary School,N1 0LB,Islington,Primary
+100449,St Joan of Arc RC Primary School,N5 2UX,Islington,Primary
+100450,Christ The King Catholic Primary School,N4 3QW,Islington,Primary
+100455,Highbury Fields School,N5 1AR,Islington,Secondary
+100457,Elizabeth Garrett Anderson School,N1 9QG,Islington,Secondary
+100458,Central Foundation Boys' School,EC2A 4SH,Islington,Secondary
+100477,Ashburnham Community School,SW10 0DT,Kensington and Chelsea,Primary
+100478,Barlby Primary School,W10 6DW,Kensington and Chelsea,Primary
+100479,Bevington Primary School,W10 5TW,Kensington and Chelsea,Primary
+100480,Bousfield Primary School,SW5 0DJ,Kensington and Chelsea,Primary
+100481,Colville Primary School,W11 2DF,Kensington and Chelsea,Primary
+100482,Fox Primary School,W8 7PP,Kensington and Chelsea,Primary
+100483,Marlborough Primary School,SW3 3AP,Kensington and Chelsea,Primary
+100485,Oxford Gardens Primary School,W10 6NF,Kensington and Chelsea,Primary
+100486,Park Walk Primary School,SW10 0AY,Kensington and Chelsea,Primary
+100487,Avondale Park Primary School,W11 4EE,Kensington and Chelsea,Primary
+100488,Thomas Jones Primary School,W11 1RQ,Kensington and Chelsea,Primary
+100489,Christ Church CofE Primary School,SW3 4AA,Kensington and Chelsea,Primary
+100490,Holy Trinity CofE Primary School,SW1X 9DE,Kensington and Chelsea,Primary
+100491,Oratory Roman Catholic Primary School,SW3 6QH,Kensington and Chelsea,Primary
+100492,St Thomas' CofE Primary School,W10 5EF,Kensington and Chelsea,Primary
+100493,St Barnabas and St Philip's CofE Primary School,W8 6EJ,Kensington and Chelsea,Primary
+100494,Saint Francis of Assisi Catholic Primary School,W11 4BJ,Kensington and Chelsea,Primary
+100495,St Clement and St James CofE Primary School,W11 4PG,Kensington and Chelsea,Primary
+100497,St Mary Abbots CofE Primary School,W8 4SP,Kensington and Chelsea,Primary
+100499,Saint Mary's Catholic Primary School,W10 5AW,Kensington and Chelsea,Primary
+100500,Servite RC Primary School,SW10 9NA,Kensington and Chelsea,Primary
+100503,All Saints Catholic College,W10 6EL,Kensington and Chelsea,Secondary
+100505,St Charles Catholic Primary School,W10 6EB,Kensington and Chelsea,Primary
+100556,Ashmole Primary School,SW8 1NT,Lambeth,Primary
+100560,Clapham Manor Primary School,SW4 0BZ,Lambeth,Primary
+100564,Granton Primary School,SW16 5AN,Lambeth,Primary
+100566,Heathbrook Primary School,SW8 3EH,Lambeth,Primary
+100567,Henry Cavendish Primary School,SW12 0JA,Lambeth,Primary
+100572,Jessop Primary School,SE24 0BJ,Lambeth,Primary
+100574,Kingswood Primary School,SE27 9RD,Lambeth,Primary
+100576,Larkhall Primary Campus,SW4 6PH,Lambeth,Primary
+100577,Paxton Primary School,SE19 1PA,Lambeth,Primary
+100578,Richard Atkins Primary School,SW2 4JP,Lambeth,Primary
+100582,Stockwell Primary School,SW9 9TG,Lambeth,Primary
+100584,Sudbourne Primary School,SW2 5EF,Lambeth,Primary
+100585,Sunnyhill Primary School,SW16 2UW,Lambeth,Primary
+100586,Telferscot Primary School,SW12 0HW,Lambeth,Primary
+100588,Vauxhall Primary School,SE11 5LG,Lambeth,Primary
+100589,Walnut Tree Walk Primary School,SE11 6DS,Lambeth,Primary
+100591,"Wyvil Primary School and Resource Bases for Speech, Language and Communication Needs, and Autism",SW8 2TJ,Lambeth,Primary
+100593,Crown Lane Primary School,SW16 3HX,Lambeth,Primary
+100595,Fenstanton Primary School,SW2 3PW,Lambeth,Primary
+100597,Elm Wood School,SE27 9RR,Lambeth,Primary
+100598,Allen Edwards Primary School,SW4 6RP,Lambeth,Primary
+100601,Glenbrook Primary School,SW4 8LD,Lambeth,Primary
+100602,Julian's School,SE27 0JF,Lambeth,Primary
+100604,Herbert Morrison Primary School,SW8 2HP,Lambeth,Primary
+100609,Archbishop Sumner Church of England Primary School,SE11 4PH,Lambeth,Primary
+100610,Christ Church Primary SW9,SW9 6HN,Lambeth,Primary
+100612,Macaulay Church of England Primary School,SW4 0NU,Lambeth,Primary
+100613,St Andrew's Church of England Primary School,SW9 9DE,Lambeth,Primary
+100614,St John the Divine Church of England Primary School,SE5 0SX,Lambeth,Primary
+100615,St John's Angell Town Church of England Primary School,SW9 7HH,Lambeth,Primary
+100616,St Jude's Church of England Primary School,SE24 0EL,Lambeth,Primary
+100619,St Mark's Church of England Primary School,SE11 5SL,Lambeth,Primary
+100620,St Saviour's Church of England Primary School,SE24 0AY,Lambeth,Primary
+100621,St Stephen's Church of England Primary School,SW8 1EJ,Lambeth,Primary
+100622,Holy Trinity Church of England Primary School,SW2 2RL,Lambeth,Primary
+100623,St Helen's Catholic Primary School,SW9 0TQ,Lambeth,Primary
+100624,The Norwood School,SE19 3NY,Lambeth,Secondary
+100625,Lilian Baylis Technology School,SE11 5QY,Lambeth,Secondary
+100627,Saint Gabriel's College,SW9 6UL,Lambeth,Secondary
+100629,St Anne's Catholic Primary School,SE11 5JA,Lambeth,Primary
+100631,St Bede's Catholic Primary School,SW12 0LF,Lambeth,Primary
+100632,St Andrew's Catholic Primary School,SW16 2ET,Lambeth,Primary
+100633,Immanuel and St Andrew Church of England Primary School,SW16 5SL,Lambeth,Primary
+100634,Reay Primary School,SW9 0EN,Lambeth,Primary
+100636,St Mary's Roman Catholic Primary School,SW4 9QJ,Lambeth,Primary
+100637,La Retraite Roman Catholic Girls' School,SW12 0AB,Lambeth,Secondary
+100638,Bishop Thomas Grant Catholic Secondary School,SW16 2HY,Lambeth,Secondary
+100671,Adamsrill Primary School,SE26 4AQ,Lewisham,Primary
+100672,Athelney Primary School,SE6 3LD,Lewisham,Primary
+100673,Baring Primary School,SE12 0NB,Lewisham,Primary
+100674,Beecroft Garden Primary,SE4 2BS,Lewisham,Primary
+100676,Cooper's Lane Primary School,SE12 0LF,Lewisham,Primary
+100677,Dalmain Primary School,SE23 1AS,Lewisham,Primary
+100678,Deptford Park Primary School,SE8 5RJ,Lewisham,Primary
+100679,Downderry Primary School,BR1 5QL,Lewisham,Primary
+100680,Edmund Waller Primary School,SE14 5LY,Lewisham,Primary
+100681,Elfrida Primary School,SE6 3EN,Lewisham,Primary
+100683,Forster Park Primary School,SE6 1PQ,Lewisham,Primary
+100684,Gordonbrock Primary School,SE4 1HQ,Lewisham,Primary
+100685,Grinling Gibbons Primary School,SE8 5LW,Lewisham,Primary
+100686,Haseltine Primary School,SE26 5AD,Lewisham,Primary
+100687,Brindishe Green School,SE13 6EH,Lewisham,Primary
+100688,Holbeach Primary School,SE6 4TP,Lewisham,Primary
+100689,John Stainer Community Primary School,SE4 2DY,Lewisham,Primary
+100690,Kelvin Grove Primary School,SE26 6BB,Lewisham,Primary
+100691,Kender Primary School,SE14 5JA,Lewisham,Primary
+100692,Launcelot Primary School and Nursery,BR1 5EA,Lewisham,Primary
+100693,Brindishe Manor School,SE13 5LS,Lewisham,Primary
+100695,Oak Gardens Primary School,SE8 4QB,Lewisham,Primary
+100696,Marvels Lane Primary School,SE12 9RA,Lewisham,Primary
+100699,Rangefield Primary School,BR1 4RP,Lewisham,Primary
+100700,Rathfern Primary School,SE6 4NL,Lewisham,Primary
+100701,Rushey Green Primary School,SE6 2LA,Lewisham,Primary
+100703,Sandhurst Primary School,SE6 1NW,Lewisham,Primary
+100704,Stillness Junior School,SE23 1NH,Lewisham,Primary
+100705,Stillness Infant School,SE23 1NH,Lewisham,Primary
+100708,Torridon Primary School,SE6 1TG,Lewisham,Primary
+100709,John Ball Primary School,SE3 0TP,Lewisham,Primary
+100710,Fairlawn Primary School,SE23 3SB,Lewisham,Primary
+100711,Eliot Bank Primary School,SE26 4BU,Lewisham,Primary
+100712,Twin Oaks Primary School,SE8 5AE,Lewisham,Primary
+100713,Myatt Garden Primary School,SE4 1DF,Lewisham,Primary
+100714,Horniman Primary School,SE23 3BP,Lewisham,Primary
+100715,Perrymount Primary School,SE23 2PX,Lewisham,Primary
+100716,Ashmead Primary School,SE8 4DX,Lewisham,Primary
+100717,Brindishe Lee School,SE12 8NA,Lewisham,Primary
+100718,Kilmorie Primary School,SE23 2SP,Lewisham,Primary
+100719,All Saints' Church of England Primary School Blackheath,SE3 0TX,Lewisham,Primary
+100722,Good Shepherd RC School,BR1 5EP,Lewisham,Primary
+100723,Holy Trinity Church of England Primary School,SE23 3HZ,Lewisham,Primary
+100724,St Margaret's Lee CofE Primary School,SE13 5SG,Lewisham,Primary
+100725,St Augustine's Catholic Primary School and Nursery,SE6 3RD,Lewisham,Primary
+100726,St Bartholomews's Church of England Primary School,SE26 4LJ,Lewisham,Primary
+100728,St John Baptist Southend Church of England Primary School,BR1 5RL,Lewisham,Primary
+100729,St Joseph's Catholic Primary School,SE8 3PH,Lewisham,Primary
+100730,St Mary's Lewisham Church of England Primary School,SE13 6NX,Lewisham,Primary
+100733,St Saviour's Catholic Primary School,SE13 6AL,Lewisham,Primary
+100737,St William of York Catholic Primary School,SE23 1PS,Lewisham,Primary
+100739,Holy Cross Catholic Primary School,SE6 2LD,Lewisham,Primary
+100740,Deptford Green School,SE14 6AN,Lewisham,Secondary
+100741,Sydenham School,SE26 4RD,Lewisham,Secondary
+100745,Forest Hill School,SE23 2XN,Lewisham,Secondary
+100748,Addey and Stanhope School,SE14 6TJ,Lewisham,Secondary
+100774,Albion Primary School,SE16 7JD,Southwark,Primary
+100775,Bellenden Primary School,SE15 4JP,Southwark,Primary
+100780,Bird In Bush School,SE15 1QP,Southwark,Primary
+100784,Crampton Primary,SE17 3LE,Southwark,Primary
+100785,Crawford Primary School,SE5 9NF,Southwark,Primary
+100790,Goodrich Community Primary School,SE22 0EP,Southwark,Primary
+100791,Grange Primary School,SE1 4RP,Southwark,Primary
+100793,Heber Primary School,SE22 9LA,Southwark,Primary
+100794,Hollydale Primary School,SE15 2AR,Southwark,Primary
+100795,Ilderton Primary School,SE16 3LA,Southwark,Primary
+100796,Ivydale Primary School,SE15 3BU,Southwark,Primary
+100798,John Ruskin Primary School and Language Classes,SE5 0PQ,Southwark,Primary
+100800,Keyworth Primary School,SE17 3TR,Southwark,Primary
+100801,Dulwich Wood Primary School,SE21 8NS,Southwark,Primary
+100803,Michael Faraday School,SE17 2HR,Southwark,Primary
+100808,Riverside Primary School,SE16 4PS,Southwark,Primary
+100809,Robert Browning Primary School,SE17 1DQ,Southwark,Primary
+100811,Snowsfields Primary School,SE1 3TD,Southwark,Primary
+100812,Southwark Park Primary School,SE16 2JH,Southwark,Primary
+100813,Tower Bridge Primary School,SE1 2AE,Southwark,Primary
+100815,Victory Primary School,SE17 1PT,Southwark,Primary
+100817,Phoenix Primary School,SE1 5JT,Southwark,Primary
+100818,Pilgrims' Way Primary School,SE15 1EF,Southwark,Primary
+100819,Alfred Salter Primary School,SE16 7LP,Southwark,Primary
+100821,Oliver Goldsmith Primary School,SE5 8UH,Southwark,Primary
+100822,Boutcher Church of England Primary School,SE1 3BW,Southwark,Primary
+100823,Dulwich Village Church of England Infants' School,SE21 7BU,Southwark,Primary
+100824,English Martyrs' Roman Catholic Primary School,SE17 1RB,Southwark,Primary
+100825,St James the Great Roman Catholic Primary School,SE15 5LP,Southwark,Primary
+100826,St Francis RC Primary School,SE15 1RQ,Southwark,Primary
+100827,St George's Church of England Primary School,SE5 7TF,Southwark,Primary
+100829,St James' Church of England Primary School,SE16 4SU,Southwark,Primary
+100830,St John's and St Clement's Church of England Primary School,SE15 4DY,Southwark,Primary
+100834,"Saint Joseph's Catholic Primary School, the Borough",SE1 1NJ,Southwark,Primary
+100835,St Jude's Church of England Primary School,SE1 6HA,Southwark,Primary
+100837,Peter Hills with St Mary's and St Paul's CofE Primary School,SE16 5ED,Southwark,Primary
+100839,St Peter's Church of England Primary School,SE17 2HH,Southwark,Primary
+100840,The Cathedral School of St Saviour and St Mary Overie,SE1 1HG,Southwark,Primary
+100841,St John's Roman Catholic Primary School,SE16 6SD,Southwark,Primary
+100849,St Saviour's and St Olave's Church of England School,SE1 4AN,Southwark,Secondary
+100853,St Joseph's Catholic Junior School,SE5 0TS,Southwark,Primary
+100854,St Joseph's Catholic Infants School,SE5 0TS,Southwark,Primary
+100855,Friars Primary Foundation School,SE1 0RF,Southwark,Primary
+100857,The St Thomas the Apostle College,SE15 2EB,Southwark,Secondary
+100890,Ben Jonson Primary School,E1 4PZ,Tower Hamlets,Primary
+100891,Bonner Primary School,E2 0NF,Tower Hamlets,Primary
+100892,Old Palace Primary School,E3 3BT,Tower Hamlets,Primary
+100894,Cayley Primary School,E14 7NG,Tower Hamlets,Primary
+100895,Blue Gate Fields Junior School,E1 0EH,Tower Hamlets,Primary
+100896,Chisenhale Primary School,E3 5QY,Tower Hamlets,Primary
+100898,Cubitt Town Primary School,E14 3NE,Tower Hamlets,Primary
+100902,Globe Primary School,E2 0JH,Tower Hamlets,Primary
+100903,Hague Primary School,E2 0BP,Tower Hamlets,Primary
+100904,Harbinger Primary School,E14 3QP,Tower Hamlets,Primary
+100906,John Scurr Primary School,E1 4AX,Tower Hamlets,Primary
+100907,Lawdale Junior School,E2 6LS,Tower Hamlets,Primary
+100908,Elizabeth Selby Infants' School,E2 6PP,Tower Hamlets,Primary
+100911,Marion Richardson Primary School,E1 0QF,Tower Hamlets,Primary
+100912,Marner Primary School,E3 3LL,Tower Hamlets,Primary
+100913,Mayflower Primary School,E14 6DU,Tower Hamlets,Primary
+100914,Mowlem Primary School,E2 9HE,Tower Hamlets,Primary
+100915,Blue Gate Fields Infants' School,E1 0EH,Tower Hamlets,Primary
+100916,Olga Primary School,E3 5DN,Tower Hamlets,Primary
+100917,Stepney Park Primary School,E1 3BW,Tower Hamlets,Primary
+100920,Manorfield Primary School,E14 6QD,Tower Hamlets,Primary
+100923,Stewart Headlam Primary School,E1 5RE,Tower Hamlets,Primary
+100927,Wellington Primary School,E3 4NE,Tower Hamlets,Primary
+100928,Woolmore Primary School,E14 0EW,Tower Hamlets,Primary
+100930,Thomas Buxton Primary School,E1 5AR,Tower Hamlets,Primary
+100931,Seven Mills Primary School,E14 8LY,Tower Hamlets,Primary
+100934,Osmani Primary School,E1 5AD,Tower Hamlets,Primary
+100937,Bangabandhu Primary School,E2 0LB,Tower Hamlets,Primary
+100938,Halley Primary School,E14 7SS,Tower Hamlets,Primary
+100939,Bigland Green Primary School,E1 2ND,Tower Hamlets,Primary
+100940,Kobi Nazrul Primary School,E1 1JP,Tower Hamlets,Primary
+100943,William Davis Primary School,E2 6ET,Tower Hamlets,Primary
+100944,Christ Church CofE School,E1 6PU,Tower Hamlets,Primary
+100946,Stepney Greencoat Church of England Primary School,E14 7TF,Tower Hamlets,Primary
+100949,St Agnes RC Primary School,E3 3ER,Tower Hamlets,Primary
+100951,St Edmund's Catholic School,E14 3RS,Tower Hamlets,Primary
+100953,St John's Church of England Primary School,E2 9LR,Tower Hamlets,Primary
+100954,St Luke's Church of England Primary School,E14 3EB,Tower Hamlets,Primary
+100958,St Paul With St Luke CofE Primary Federation,E3 4LA,Tower Hamlets,Primary
+100959,St Paul's Whitechapel Church of England Primary School,E1 8HY,Tower Hamlets,Primary
+100960,St Peter's London Docks CofE Primary School,E1W 3QT,Tower Hamlets,Primary
+100961,St Saviour's Church of England Primary School,E14 6BB,Tower Hamlets,Primary
+100962,English Martyrs Roman Catholic Primary School,E1 8DJ,Tower Hamlets,Primary
+100965,Bow School,E3 3QW,Tower Hamlets,Secondary
+100966,Langdon Park Community School,E14 0RZ,Tower Hamlets,Secondary
+100967,Morpeth School,E2 0PX,Tower Hamlets,Secondary
+100972,Oaklands School,E2 6PR,Tower Hamlets,Secondary
+100973,Swanlea School,E1 5DJ,Tower Hamlets,Secondary
+100974,George Green's School,E14 3DW,Tower Hamlets,Secondary
+100975,Central Foundation Girls' School,E3 2AE,Tower Hamlets,Secondary
+100977,Stepney All Saints Church of England Secondary School,E1 0RH,Tower Hamlets,Secondary
+100995,Alderbrook Primary School,SW12 8PP,Wandsworth,Primary
+100996,Allfarthing Primary School,SW18 2LR,Wandsworth,Primary
+100997,Beatrix Potter Primary School,SW18 3ER,Wandsworth,Primary
+101001,Brandlehow Primary School,SW15 2ED,Wandsworth,Primary
+101005,Earlsfield Primary School,SW18 3QQ,Wandsworth,Primary
+101006,Falconbrook Primary School,SW11 2LX,Wandsworth,Primary
+101009,Furzedown Primary School,SW17 9TJ,Wandsworth,Primary
+101011,Honeywell Junior School,SW11 6EF,Wandsworth,Primary
+101012,Honeywell Infant School,SW11 6EF,Wandsworth,Primary
+101013,Hotham Primary School,SW15 1PN,Wandsworth,Primary
+101014,John Burns Primary School,SW11 5QR,Wandsworth,Primary
+101016,Penwortham Primary School,SW16 6RJ,Wandsworth,Primary
+101018,Riversdale Primary School,SW18 5JP,Wandsworth,Primary
+101019,Sellincourt Primary School,SW17 9SA,Wandsworth,Primary
+101020,Shaftesbury Park Primary School,SW11 5UW,Wandsworth,Primary
+101021,Smallwood Primary School and Language Unit,SW17 0TW,Wandsworth,Primary
+101022,Swaffield School,SW18 2SA,Wandsworth,Primary
+101024,West Hill Primary School,SW18 5ST,Wandsworth,Primary
+101026,Sheringdale Primary School,SW18 5TR,Wandsworth,Primary
+101027,Southmead Primary School,SW19 6QT,Wandsworth,Primary
+101028,Granard Primary School,SW15 6XA,Wandsworth,Primary
+101029,Heathmere Primary School,SW15 4LJ,Wandsworth,Primary
+101031,Ronald Ross Primary School,SW19 6RY,Wandsworth,Primary
+101032,Albemarle Primary School,SW19 6JP,Wandsworth,Primary
+101034,"All Saints' CofE Primary School, Putney",SW15 1HL,Wandsworth,Primary
+101036,Holy Ghost Catholic Primary School,SW12 8QJ,Wandsworth,Primary
+101037,Our Lady of Victories Catholic Primary School,SW15 1AW,Wandsworth,Primary
+101038,Roehampton Church Forest Primary School,SW15 4AA,Wandsworth,Primary
+101042,St Boniface RC Primary School,SW17 8PP,Wandsworth,Primary
+101043,St Faith's CofE Primary School,SW18 1AE,Wandsworth,Primary
+101044,St George's CofE Primary School,SW8 4JS,Wandsworth,Primary
+101045,St Joseph's Catholic Primary and Nursery School,SW15 2QD,Wandsworth,Primary
+101046,St Mary's CofE Nursery and Primary School,SW15 1BA,Wandsworth,Primary
+101047,Trinity St Mary's CofE Primary School,SW12 8DR,Wandsworth,Primary
+101048,St Mary's RC Voluntary Aided Primary School,SW8 4EN,Wandsworth,Primary
+101049,St Michael's CofE Primary School,SW18 5SQ,Wandsworth,Primary
+101050,"Sacred Heart Catholic Primary School, Roehampton",SW15 5NX,Wandsworth,Primary
+101051,Our Lady Queen of Heaven RC School,SW19 6AD,Wandsworth,Primary
+101052,St Anselm's Catholic Primary School,SW17 8RW,Wandsworth,Primary
+101057,Hillbrook School,SW17 8SG,Wandsworth,Primary
+101107,St John's Wood Primary School,NW8 7AL,Westminster,Primary
+101110,Edward Wilson Primary School,W2 5TL,Westminster,Primary
+101111,Essendine Primary School,W9 2LR,Westminster,Primary
+101116,Hallfield Primary School,W2 6JJ,Westminster,Primary
+101120,Queen's Park Primary School,W10 4DQ,Westminster,Primary
+101121,All Souls CofE Primary School,W1W 7JJ,Westminster,Primary
+101122,Burdett-Coutts and Townshend Foundation CofE Primary School,SW1P 2QQ,Westminster,Primary
+101123,Hampden Gurney CofE Primary School,W1H 5HA,Westminster,Primary
+101125,St Augustines Federated Schools: CofE Primary School,NW6 5XA,Westminster,Primary
+101126,St Barnabas' CofE Primary School,SW1W 8PF,Westminster,Primary
+101127,St Clement Danes CofE Primary School,WC2B 5SU,Westminster,Primary
+101128,St Edward's Catholic Primary School,NW1 6LH,Westminster,Primary
+101129,St Gabriel's CofE Primary School,SW1V 3AG,Westminster,Primary
+101130,St George's Hanover Square CofE Primary School,W1K 2XH,Westminster,Primary
+101131,Soho Parish CofE Primary School,W1D 7LF,Westminster,Primary
+101132,St James & St John Church of England Primary School,W2 3QD,Westminster,Primary
+101134,St Luke's CofE Primary School,W9 3EJ,Westminster,Primary
+101135,St Mary Magdalene & St Stephen's CofE Primary School,W2 5TF,Westminster,Primary
+101136,St Mary's Bryanston Square CofE School,W1H 1DL,Westminster,Primary
+101137,St. Mary of the Angels Catholic Primary School,W2 5PR,Westminster,Primary
+101138,"St Matthew's School, Westminster",SW1P 2DG,Westminster,Primary
+101139,St Peter's CofE School,W9 2AN,Westminster,Primary
+101140,St Peter's Eaton Square CofE Primary School,SW1W 0NL,Westminster,Primary
+101141,St Saviour's CofE Primary School,W9 2JD,Westminster,Primary
+101143,St Vincent's Catholic Primary School,W1U 4DF,Westminster,Primary
+101147,Christ Church Bentinck CofE Primary School,NW1 5NS,Westminster,Primary
+101154,St Augustine's Federated Schools: CE High School,NW6 5SN,Westminster,Secondary
+102078,Belmont Junior School,N22 6RA,Haringey,Primary
+102079,Belmont Infant School,N22 6RA,Haringey,Primary
+102080,Bounds Green Junior School,N11 2QG,Haringey,Primary
+102081,Bounds Green Infant School,N11 2QG,Haringey,Primary
+102084,Campsbourne Junior School,N8 7AF,Haringey,Primary
+102085,Campsbourne Infant School,N8 7AF,Haringey,Primary
+102087,The Devonshire Hill Nursery & Primary School,N17 8LB,Haringey,Primary
+102091,Earlsmead Primary School,N15 4PW,Haringey,Primary
+102092,Highgate Primary School,N6 4ED,Haringey,Primary
+102094,Lancasterian Primary School,N17 8NN,Haringey,Primary
+102097,Coldfall Primary School,N10 1HS,Haringey,Primary
+102098,Tetherdown Primary School,N10 3BP,Haringey,Primary
+102106,Rokesly Junior School,N8 8NH,Haringey,Primary
+102107,Rokesly Infant & Nursery School,N8 8NH,Haringey,Primary
+102110,South Harringay Junior School,N4 1BA,Haringey,Primary
+102111,South Harringay Infant School,N4 1BA,Haringey,Primary
+102115,West Green Primary School,N15 3RT,Haringey,Primary
+102121,Coleridge Primary School,N8 8DN,Haringey,Primary
+102124,Welbourne Primary School,N15 4EA,Haringey,Primary
+102125,Lea Valley Primary School,N17 0PT,Haringey,Primary
+102127,Ferry Lane Primary School,N17 9PP,Haringey,Primary
+102128,Rhodes Avenue Primary School,N22 7UT,Haringey,Primary
+102129,Crowland Primary School,N15 6UX,Haringey,Primary
+102130,Weston Park Primary School,N8 9WP,Haringey,Primary
+102131,The Willow Primary School,N17 6HW,Haringey,Primary
+102132,St Aidan's Voluntary Controlled Primary School,N4 4RR,Haringey,Primary
+102135,St Michael's CofE Voluntary Aided Primary School,N6 4BG,Haringey,Primary
+102136,St James Church of England Primary School,N10 3JA,Haringey,Primary
+102139,St Mary's CofE Primary School,N8 7BU,Haringey,Primary
+102142,Our Lady of Muswell Catholic Primary School,N10 1PS,Haringey,Primary
+102143,St Francis de Sales RC Junior School,N17 8AZ,Haringey,Primary
+102144,St Ignatius RC Primary School,N15 6ND,Haringey,Primary
+102146,St Paul's Catholic Primary School,N22 7SZ,Haringey,Primary
+102149,St Francis de Sales RC Infant School,N17 8AZ,Haringey,Primary
+102150,St Martin of Porres Catholic Primary School,N11 2AF,Haringey,Primary
+102152,St John Vianney RC Primary School,N15 3HD,Haringey,Primary
+102153,Hornsey School for Girls,N8 9JF,Haringey,Secondary
+102154,Highgate Wood Secondary School,N8 8RN,Haringey,Secondary
+102156,Fortismere School,N10 1NE,Haringey,Secondary
+102157,Gladesmore Community School,N15 6EB,Haringey,Secondary
+102709,Altmore Infant School,E6 2BX,Newham,Primary
+102710,Avenue Primary School,E12 6AR,Newham,Primary
+102711,Brampton Primary School,E6 3LB,Newham,Primary
+102712,Carpenters Primary School,E15 2JQ,Newham,Primary
+102716,Dersingham Primary School,E12 5QJ,Newham,Primary
+102721,Godwin Junior School,E7 0JW,Newham,Primary
+102722,Woodgrange Infant School,E7 0NJ,Newham,Primary
+102723,Grange Primary School,E13 0HE,Newham,Primary
+102725,Keir Hardie Primary School,E16 1FZ,Newham,Primary
+102728,Lathom Junior School,E6 2DU,Newham,Primary
+102729,Stratford Manor Primary School & Nursery,E15 3BA,Newham,Primary
+102730,Maryland Primary School,E15 1SL,Newham,Primary
+102735,Odessa Infant School,E7 9BY,Newham,Primary
+102736,Park Primary School,E15 4AE,Newham,Primary
+102740,Roman Road Primary School,E6 3SQ,Newham,Primary
+102742,Salisbury Primary School,E12 6TH,Newham,Primary
+102745,William Davies Primary School,E7 8NL,Newham,Primary
+102746,Star Primary School,E16 4NH,Newham,Primary
+102748,St Stephen's Primary School,E6 1AS,Newham,Primary
+102751,Winsor Primary School,E6 5NA,Newham,Primary
+102752,Colegrave Primary School,E15 1JY,Newham,Primary
+102755,Southern Road Primary School,E13 9JH,Newham,Primary
+102759,Ellen Wilkinson Primary School,E6 5UP,Newham,Primary
+102763,Essex Primary School,E12 6QX,Newham,Primary
+102764,St James' CofE Junior School,E7 9DA,Newham,Primary
+102765,West Ham Church Primary School,E15 3QG,Newham,Primary
+102766,St Luke's Primary School,E16 1JB,Newham,Primary
+102776,Little Ilford School,E12 6JB,Newham,Secondary
+102786,St Angela's Ursuline School,E7 8HU,Newham,Secondary
+102787,St Bonaventure's RC School,E7 9QD,Newham,Secondary
+121792,Springfield Community Primary School,N16 6DH,Hackney,Primary
+130302,Rushmore Primary School,E5 0LE,Hackney,Primary
+130303,Gayhurst Community School,E8 3EN,Hackney,Primary
+130342,Christopher Hatton Primary School,EC1R 4PQ,Camden,Primary
+130352,Arnhem Wharf Primary School,E14 3RP,Tower Hamlets,Primary
+130358,Alexandra Primary School,N22 6UH,Haringey,Primary
+130381,Sandringham Primary School,E7 8ED,Newham,Primary
+130912,Paddington Academy,W9 2DR,Westminster,Secondary
+130918,Bessemer Grange Primary School,SE5 8HP,Southwark,Primary
+130932,William Patten Primary School,N16 0NX,Hackney,Primary
+130995,Central Park Primary School,E6 3DW,Newham,Primary
+131062,The Excelsior Academy,E8 2EY,Hackney,Secondary
+131096,Stroud Green Primary School,N4 3EX,Haringey,Primary
+131141,Hoxton Garden Primary,N1 5JD,Hackney,Primary
+131247,Bonneville Primary School,SW4 9LB,Lambeth,Primary
+131262,Westminster Academy,W2 5EZ,Westminster,Secondary
+131325,Newington Green Primary School,N1 4ND,Islington,Primary
+131340,Hill Mead Primary School,SW9 8UE,Lambeth,Primary
+131478,Earlham Primary School,N22 5HJ,Haringey,Primary
+131520,"Sacred Heart Catholic Primary School, Battersea",SW11 2TD,Wandsworth,Primary
+131595,Lordship Lane Primary School,N22 5PS,Haringey,Primary
+131609,The Bridge Academy,E2 8BA,Hackney,Secondary
+131690,Arts and Media School Islington,N4 3LS,Islington,Secondary
+131706,Betty Layward Primary School,N16 9EX,Hackney,Primary
+131731,Bruce Grove Primary School,N17 6UH,Haringey,Primary
+131737,Harry Gosling Primary School,E1 1NT,Tower Hamlets,Primary
+131740,Rotherfield Primary School,N1 3EE,Islington,Primary
+131747,Harris Academy Bermondsey,SE16 3TZ,Southwark,Secondary
+131752,Ark Burlington Danes Academy,W12 0HR,Hammersmith and Fulham,Secondary
+131757,Park View School,N15 3QR,Haringey,Secondary
+131773,Canonbury Primary School,N1 2UT,Islington,Primary
+131824,Hitherfield Primary School,SW16 2JQ,Lambeth,Primary
+131842,Hugh Myddelton Primary School,EC1R 1YJ,Islington,Primary
+131843,Brunswick Park Primary School,SE5 7QH,Southwark,Primary
+131871,Muswell Hill Primary School,N10 3ST,Haringey,Primary
+131874,Henry Fawcett Primary School,SE11 5BZ,Lambeth,Primary
+131879,Risley Avenue Primary School,N17 7AB,Haringey,Primary
+131936,St Mary and St Michael Primary School,E1 0BD,Tower Hamlets,Primary
+132058,Kingsford Community School,E6 5JG,Newham,Secondary
+132137,St John and St James CofE Primary School,E9 6DX,Hackney,Primary
+132245,Kingsgate Primary School,NW6 4LB,Camden,Primary
+132253,South Grove Primary School,N15 5QE,Haringey,Primary
+132711,Harris Girls' Academy East Dulwich,SE22 0NR,Southwark,Secondary
+132789,Sir John Heron Primary School,E12 5PY,Newham,Primary
+132812,Plaistow Primary School,E13 9DQ,Newham,Primary
+133386,Greig City Academy,N8 7NU,Haringey,Secondary
+133574,Lansbury Lawrence Primary School,E14 6DZ,Tower Hamlets,Primary
+133599,Yesodey Hatorah Senior Girls School,N16 6UB,Hackney,Secondary
+133662,Jubilee Primary School,SW2 2JE,Lambeth,Primary
+133707,The Mulberry Primary School,N17 9RB,Haringey,Primary
+134009,Larmenier & Sacred Heart Catholic Primary School,W6 7BL,Hammersmith and Fulham,Primary
+134041,Gatton (VA) Primary School,SW17 0DS,Wandsworth,Primary
+134160,Malmesbury Primary School,E3 2AB,Tower Hamlets,Primary
+134222,City of London Academy (Southwark),SE1 5LA,Southwark,Secondary
+134225,Harris Academy Peckham,SE15 5DZ,Southwark,Secondary
+134273,Normand Croft Community School for Early Years and Primary Education,W14 9PA,Hammersmith and Fulham,Primary
+134507,The Orchard School,SW2 3ES,Lambeth,Primary
+134680,Chestnuts Primary School,N15 3AS,Haringey,Primary
+134681,North Harringay Primary School,N8 0NU,Haringey,Primary
+134693,Mossbourne Community Academy,E5 8JY,Hackney,Secondary
+134815,The Elms Academy,SW4 9ET,Lambeth,Secondary
+134903,Rye Oak Primary School,SE15 3PD,Southwark,Primary
+135070,Haberdashers' Knights Academy,BR1 5EB,Lewisham,Secondary
+135073,Haberdashers' Hatcham College,SE14 5SF,Lewisham,Secondary
+135315,Ark Walworth Academy,SE1 5UJ,Southwark,Secondary
+135316,Ashcroft Technology Academy,SW15 2UT,Wandsworth,Secondary
+135389,Ark Evelyn Grace Academy,SE24 0QN,Lambeth,Secondary
+135531,Chelsea Academy,SW10 0AB,Kensington and Chelsea,Secondary
+135587,City of London Academy Islington,N1 8PQ,Islington,Secondary
+135614,Iqra Primary School,SW4 9PA,Lambeth,Primary
+135676,Pimlico Academy,SW1V 3AT,Westminster,Secondary
+135762,Saint John Bosco College,SW11 3DQ,Wandsworth,Secondary
+135816,Harris Boys' Academy East Dulwich,SE22 0AT,Southwark,Secondary
+135835,"The City Academy, Hackney",E9 6EA,Hackney,Secondary
+136137,Skinners' Academy,N4 1SY,Hackney,Secondary
+136172,Hammersmith Academy,W12 9JD,Hammersmith and Fulham,Secondary
+136298,The Charter School North Dulwich,SE24 9JH,Southwark,Secondary
+136309,Kingsdale Foundation School,SE21 8SQ,Southwark,Secondary
+136450,Platanos College,SW9 0AL,Lambeth,Secondary
+136665,Dulwich Hamlet Junior School,SE21 7AL,Southwark,Primary
+136669,Brampton Manor Academy,E6 3SQ,Newham,Secondary
+136750,West London Free School,W6 9LP,Hammersmith and Fulham,Secondary
+136807,St Luke's Church of England School,NW3 7SU,Camden,Primary
+136808,Eden Primary,N10 1NR,Haringey,Primary
+136883,Chestnut Grove Academy,SW12 8JZ,Wandsworth,Secondary
+136978,Stratford School Academy,E7 9PR,Newham,Secondary
+137005,Graveney School,SW17 9BU,Wandsworth,Secondary
+137016,"Canary Wharf College, East Ferry",E14 3BA,Tower Hamlets,Primary
+137157,The London Oratory School,SW6 1RX,Hammersmith and Fulham,Secondary
+137181,The UCL Academy,NW3 3AQ,Camden,Secondary
+137295,Corpus Christi Catholic Primary School,SW2 5BL,Lambeth,Primary
+137323,Ark Atwood Primary Academy,W9 2JY,Westminster,Primary
+137331,Ark Conway Primary Academy,W12 0QT,Hammersmith and Fulham,Primary
+137353,The St Marylebone CofE School,W1U 5BA,Westminster,Secondary
+137393,The New North Academy,N1 8SJ,Islington,Primary
+137413,Harris Primary Academy Peckham Park,SE15 5TD,Southwark,Primary
+137430,Oasis Academy South Bank Primary,SE1 7RH,Lambeth,Primary
+137441,Tidemill Academy,SE8 4RJ,Lewisham,Primary
+137442,Clapton Girls' Academy,E5 0RB,Hackney,Secondary
+137531,Alexandra Park School,N11 2AZ,Haringey,Secondary
+137563,Belleville Primary School,SW11 6PR,Wandsworth,Primary
+137566,William Tyndale Primary School,N1 2GG,Islington,Primary
+137648,"Redriff Primary, City of London Academy",SE16 5LQ,Southwark,Primary
+137682,Sir William Burrough Primary School,E14 7PQ,Tower Hamlets,Primary
+137745,Mulberry Academy Woodside,N22 5QJ,Haringey,Secondary
+137789,Mulberry Academy Shoreditch,E2 6NW,Tower Hamlets,Secondary
+137935,Sacred Heart High School,W6 7DG,Hammersmith and Fulham,Secondary
+137954,City Heights E-ACT Academy,SW2 3PW,Lambeth,Secondary
+138202,Wapping High School,E1 2DA,Tower Hamlets,Secondary
+138267,Ark Bolingbroke Academy,SW11 6BF,Wandsworth,Secondary
+138276,Solebay Primary - A Paradigm Academy,E1 4PW,Tower Hamlets,Primary
+138312,Westminster City School,SW1E 5HJ,Westminster,Secondary
+138313,The Grey Coat Hospital,SW1P 2DY,Westminster,Secondary
+138446,Harris Primary Academy Coleraine Park,N17 9XT,Haringey,Primary
+138447,Harris Primary Academy Philip Lane,N15 4AB,Haringey,Primary
+138588,Lift Noel Park,N22 6LH,Haringey,Primary
+138589,Lift Trinity,N22 8ES,Haringey,Primary
+138607,Lady Margaret School,SW6 4UN,Hammersmith and Fulham,Secondary
+138680,Ark Bentworth Primary Academy,W12 7AJ,Hammersmith and Fulham,Primary
+138681,Ark Putney Academy,SW15 3DG,Wandsworth,Secondary
+138682,Southfields Academy,SW18 5JU,Wandsworth,Secondary
+138960,Sacred Heart Catholic School,SE5 0RP,Southwark,Secondary
+139169,St Ann's CE Primary School,N15 5JG,Haringey,Primary
+139175,St Michael's CofE Primary School,N22 8HE,Haringey,Primary
+139176,St Paul's and All Hallows CofE Infant School,N17 0HH,Haringey,Primary
+139177,St Paul's and All Hallows CofE Junior School,N17 0TU,Haringey,Primary
+139240,Holy Trinity CofE Primary School,N17 9EJ,Haringey,Primary
+139362,St Thomas More Catholic School,N22 5HN,Haringey,Secondary
+139364,Fulham Cross Academy,SW6 6SN,Hammersmith and Fulham,Secondary
+139365,Fulham Cross Girls' School and Language College,SW6 6BP,Hammersmith and Fulham,Secondary
+139369,St George's Catholic School,W9 1RB,Westminster,Secondary
+139423,Our Lady and St Joseph Catholic Primary School,E14 0DE,Tower Hamlets,Primary
+139546,West London Free School Primary,W6 0LB,Hammersmith and Fulham,Primary
+139587,The Charter School Bermondsey,SE16 4EE,Southwark,Secondary
+139592,Tooting Primary School,SW17 8HE,Wandsworth,Primary
+139616,Heartlands High School,N22 7ST,Haringey,Secondary
+139645,Ark Brunel Primary Academy,W10 5AT,Kensington and Chelsea,Primary
+139659,Oasis Academy South Bank,SE1 7HS,Lambeth,Secondary
+139672,Haberdashers' Hatcham Free School,SE14 5SF,Lewisham,Primary
+139687,Mosaic Jewish Primary School,SW15 4EU,Wandsworth,Primary
+139718,Ark All Saints Academy,SE5 0UB,Southwark,Secondary
+139775,Rutherford House School,SW17 7BS,Wandsworth,Primary
+139814,"The Olive School, Hackney",E9 6EJ,Hackney,Primary
+139820,Ark White City Primary Academy,W12 7PT,Hammersmith and Fulham,Primary
+139824,Wilberforce Primary,W10 4LB,Westminster,Primary
+139837,Abacus Belsize Primary School,N1C 4PF,Camden,Primary
+139842,Burntwood School,SW17 0AQ,Wandsworth,Secondary
+139898,Pimlico Primary,SW1V 3AT,Westminster,Primary
+139907,Judith Kerr Primary School,SE24 9JE,Southwark,Primary
+140050,Gateway Academy,NW8 8LN,Westminster,Primary
+140064,Culloden Primary - A Paradigm Academy,E14 0PT,Tower Hamlets,Primary
+140096,Old Ford Primary - A Paradigm Academy,E3 5LD,Tower Hamlets,Primary
+140210,Mossbourne Victoria Park Academy,E9 7HD,Hackney,Secondary
+140212,Kensington Aldridge Academy,W10 6EX,Kensington and Chelsea,Secondary
+140213,Kensington Primary Academy,W14 8PU,Kensington and Chelsea,Primary
+140221,South Bank University Academy,SE17 2TP,Southwark,Secondary
+140222,Oasis Academy Putney,SW15 1LY,Wandsworth,Primary
+140423,Floreat Wandsworth Primary School,SW18 4EQ,Wandsworth,Primary
+140426,Mossbourne Riverside Academy,E15 2GW,Hackney,Primary
+140495,Whitehall Park School,N6 5EP,Islington,Primary
+140507,John Donne Primary School,SE15 2SW,Southwark,Primary
+140682,Westbridge Academy,SW11 3NE,Wandsworth,Primary
+140686,Kings Cross Academy,N1C 4BT,Camden,Primary
+140811,Earl's Court Free School Primary,W6 0LB,Hammersmith and Fulham,Primary
+140884,Marylebone Boys' School,W2 1QZ,Westminster,Secondary
+140937,Harris Primary Academy East Dulwich,SE22 8HA,Southwark,Primary
+140966,Trinity Academy,SW2 1QS,Lambeth,Secondary
+140985,Harris Academy Battersea,SW11 5AP,Wandsworth,Secondary
+141039,"Canary Wharf College, Glenworth",E14 3EB,Tower Hamlets,Primary
+141082,Oasis Academy Silvertown,E16 2BB,Newham,Secondary
+141133,London Enterprise Academy,E1 1RD,Tower Hamlets,Secondary
+141135,The Fulham Boys School,SW6 5BD,Hammersmith and Fulham,Secondary
+141209,Brook House Primary School,N17 8EY,Haringey,Primary
+141296,Sheringham Primary School,E12 5PB,Newham,Primary
+141576,Northwold Primary School,E5 8RN,Hackney,Primary
+141617,The Hurlingham Academy,SW6 3ED,Hammersmith and Fulham,Secondary
+141666,Angel Oak Academy,SE15 6FL,Southwark,Primary
+141685,Langford Primary School,SW6 2LG,Hammersmith and Fulham,Primary
+141750,Halley House School,E8 2DJ,Hackney,Primary
+141808,Saint Cecilia's Church of England School,SW18 5JR,Wandsworth,Secondary
+141902,Greenside Primary School,W12 9PT,Hammersmith and Fulham,Primary
+141925,St Helen's Catholic Primary School,E13 8DW,Newham,Primary
+141927,St Joachim's Catholic Primary School,E16 3DT,Newham,Primary
+141931,The Cardinal Vaughan Memorial RC School,W14 8BZ,Kensington and Chelsea,Secondary
+142090,The Belham Primary School,SE15 4DG,Southwark,Primary
+142112,Hackney New Primary School,N1 5FR,Hackney,Primary
+142178,The Charter School East Dulwich,SE22 8EY,Southwark,Secondary
+142255,Mossbourne Parkside Academy,E8 1AS,Hackney,Primary
+142256,Thomas's Academy,SW6 4LY,Hammersmith and Fulham,Primary
+142267,Upton Cross Primary School,E13 0RJ,Newham,Primary
+142456,St Winifred's RC Primary School,SE12 0SJ,Lewisham,Primary
+142632,Portway Primary School,E13 0JW,Newham,Primary
+142644,Sarah Bonnell School,E15 4LP,Newham,Secondary
+142708,Hartley Primary School,E6 1NT,Newham,Primary
+142726,Selwyn Primary School,E13 0ES,Newham,Primary
+142875,"Galleywall Primary, City of London Academy",SE16 3PB,Southwark,Primary
+142879,Canary Wharf College Crossharbour,E14 9GL,Tower Hamlets,Secondary
+142903,London Design and Engineering UTC,E16 2RD,Newham,Secondary
+143020,"City of London Primary Academy, Islington",EC1Y 0AE,Islington,Primary
+143129,Phoenix Academy,W12 0RQ,Hammersmith and Fulham,Secondary
+143212,Queen's Manor School and Special Needs Unit,SW6 6ND,Hammersmith and Fulham,Primary
+143213,Fulham Primary School,SW6 1JU,Hammersmith and Fulham,Primary
+143214,Sulivan Primary School,SW6 3BN,Hammersmith and Fulham,Primary
+143274,Forest Gate Community School,E7 9BB,Newham,Secondary
+143276,Gainsborough Primary School,E15 3AF,Newham,Primary
+143277,Kaizen Primary School,E13 8LF,Newham,Primary
+143629,Mulberry School for Girls,E1 2JP,Tower Hamlets,Secondary
+143659,"City of London Academy, Highgate Hill",N19 3EU,Islington,Secondary
+143668,Royal Wharf Primary School,E16 2ZA,Newham,Primary
+143716,Mulberry Academy London Dock,E1W 2AD,Tower Hamlets,Secondary
+143739,Anglo Portuguese School of London,SW18 4QG,Wandsworth,Primary
+143756,"City of London Academy, Shoreditch Park",N1 5JU,Hackney,Secondary
+143881,Tollgate Primary School,E13 8SA,Newham,Primary
+143882,Cleves Primary School,E6 1QP,Newham,Primary
+143883,Drew Primary School,E16 2DP,Newham,Primary
+144139,Ranelagh Primary School,E15 3DN,Newham,Primary
+144140,Ravenscroft Primary School,E16 4BD,Newham,Primary
+144141,Kensington Primary School,E12 6NN,Newham,Primary
+144142,Curwen Primary School,E13 0AG,Newham,Primary
+144235,Stebon Primary School,E14 7AD,Tower Hamlets,Primary
+144236,Bygrove Primary School,E14 6DN,Tower Hamlets,Primary
+144308,Rosendale Primary School,SE21 8LR,Lambeth,Primary
+144309,The Elmgreen School,SE27 9BZ,Lambeth,Secondary
+144527,Britannia Village Primary School,E16 2AW,Newham,Primary
+144621,Belleville Wix Academy,SW4 0AJ,Wandsworth,Primary
+144699,The Clara Grant Primary School,E3 4BU,Tower Hamlets,Primary
+144700,Mulberry Stepney Green Mathematics and Computing College,E1 4SD,Tower Hamlets,Secondary
+144756,Mulberry UTC,E3 2RU,Tower Hamlets,Secondary
+144900,Duke's Aldridge,N17 0PG,Haringey,Secondary
+144962,City of London Academy Highbury Grove,N5 2EQ,Islington,Secondary
+145030,The Alton School,SW15 4PD,Wandsworth,Primary
+145060,Griffin Primary School,SW8 4JB,Wandsworth,Primary
+145087,Rosetta Primary School,E16 3PB,Newham,Primary
+145088,Earlham Primary School,E7 9AW,Newham,Primary
+145113,Cumberland Community School,E13 8SJ,Newham,Secondary
+145126,Harris Academy St John's Wood,NW8 0NL,Westminster,Secondary
+145130,Goose Green Primary and Nursery School,SE22 8HG,Southwark,Primary
+145235,Monega Primary School,E12 6TT,Newham,Primary
+145280,Chesterton Primary School,SW11 5DT,Wandsworth,Primary
+145313,Bacon's College,SE16 6AT,Southwark,Secondary
+145362,Elmhurst Primary School,E7 8JY,Newham,Primary
+145363,Hallsville Primary School,E16 1LN,Newham,Primary
+145364,Nelson Primary School,E6 2SE,Newham,Primary
+145365,Scott Wilkie Primary School,E16 3HD,Newham,Primary
+145366,Vicarage Primary School,E6 6AD,Newham,Primary
+145367,New City Primary School,E13 9NE,Newham,Primary
+145368,Gallions Primary School,E6 6WG,Newham,Primary
+145410,Royal Docks Academy,E16 3HS,Newham,Secondary
+145609,Lubavitch House School (Senior Girls),N16 5RP,Hackney,Secondary
+145610,Lubavitch Girls Primary School,N16 5RP,Hackney,Primary
+145614,"Christ Church, Streatham Church of England Primary School",SW2 3NF,Lambeth,Primary
+145615,St Leonard's Church of England Primary School,SW16 6NP,Lambeth,Primary
+145616,St Luke's Church of England Primary School,SE27 0DZ,Lambeth,Primary
+145621,St George's CofE Primary School,SE23 2NE,Lewisham,Primary
+145627,Shaftesbury Primary School,E7 8PF,Newham,Primary
+145730,Lubavitch Boys' Primary School,E5 9AE,Hackney,Primary
+145731,Hungerford School,N7 9LF,Islington,Primary
+145888,John Keats Primary School,SE16 3FN,Southwark,Primary
+146100,Turnham Academy,SE4 2HH,Lewisham,Primary
+146117,Surrey Square Primary School,SE17 2JY,Southwark,Primary
+146191,Franciscan Primary School,SW17 8HQ,Wandsworth,Primary
+146214,ARK John Archer Primary Academy,SW11 2AA,Wandsworth,Primary
+146221,Childeric Primary School,SE14 6DG,Lewisham,Primary
+146368,Van Gogh Primary,SW9 6HF,Lambeth,Primary
+146669,St Paul's Church of England Primary School,SE17 3DT,Southwark,Primary
+146915,North Beckton Primary School,E6 5XG,Newham,Primary
+147073,Haberdashers' Borough Academy,SE1 0EX,Southwark,Secondary
+147327,Ravenstone Primary School,SW12 9SS,Wandsworth,Primary
+147335,St Edward's Catholic Primary School,E13 9AX,Newham,Primary
+147336,St Francis' Catholic Primary School,E15 1HD,Newham,Primary
+147355,Haberdashers' Hatcham Primary,SE14 5RD,Lewisham,Primary
+147363,Haberdashers' Knights Primary,BR1 5LW,Lewisham,Primary
+147543,Harris Academy Clapham,SW4 8LD,Lambeth,Secondary
+147653,Waterside Academy,E8 4DL,Hackney,Secondary
+148003,Sedgehill Academy,SE6 3QW,Lewisham,Secondary
+148012,Charles Dickens Primary School,SE1 1AF,Southwark,Primary
+148025,St Antony's Catholic Primary School,E7 9PN,Newham,Primary
+148224,Eastlea Community School,E16 4NP,Newham,Secondary
+148438,St Joseph's Catholic Primary School,SW3 2QT,Kensington and Chelsea,Primary
+148574,Lyndhurst Primary School,SE5 8SN,Southwark,Primary
+148623,School 360,E15 2QS,Newham,Primary
+148681,Cyril Jackson Primary School,E14 8AQ,Tower Hamlets,Primary
+148769,Mulberry Canon Barnett Primary Academy,E1 7RQ,Tower Hamlets,Primary
+148901,Rokeby School,E16 4DD,Newham,Secondary
+148902,Lister Community School,E13 9AE,Newham,Secondary
+148972,St Winefride's RC Primary School,E12 6HB,Newham,Primary
+149084,Mulberry Wood Wharf Primary School,E14 9ZR,Tower Hamlets,Primary
+149346,St Joseph's Catholic Primary School,SE16 4UP,Southwark,Primary
+149369,Notre Dame Catholic Girls' School,SE1 6EX,Southwark,Secondary
+149431,Harris Science Academy East London,E3 3DU,Newham,Secondary
+149488,St Joseph's RC Primary School,W9 1DF,Westminster,Primary
+149543,Ernest Bevin Academy,SW17 7DF,Wandsworth,Secondary
+149556,Streatham Wells Primary,SW2 3NJ,Lambeth,Primary
+149604,Grove Primary School,SE22 8AB,Southwark,Primary
+149605,Rotherhithe Primary School,SE16 2PE,Southwark,Primary
+149632,Holland Park School,W8 7AF,Kensington and Chelsea,Secondary
+149641,St John XXIII Catholic Primary School,W12 7QT,Hammersmith and Fulham,Primary
+149901,Haggerston School,E2 8LS,Hackney,Secondary
+150082,St Augustine's RC Primary School,W6 8QE,Hammersmith and Fulham,Primary
+150319,Prendergast School,SE4 1LE,Lewisham,Secondary
+150522,Pooles Park Primary School,N4 3NW,Islington,Primary
+150550,St Monica's Catholic Primary School,N1 6QN,Hackney,Primary
+150551,St Anthony's Catholic Primary School,SE22 0LA,Southwark,Primary
+150552,Our Lady and St Philip Neri Catholic Primary School,SE26 5SE,Lewisham,Primary
+150554,St Anne's and Guardian Angels Catholic Primary School,E1 5AW,Tower Hamlets,Primary
+150596,St Elizabeth Catholic Primary School,E2 9JY,Tower Hamlets,Primary
+150604,Cardinal Pole Catholic School,E9 6LG,Hackney,Secondary
+150605,Bonus Pastor Catholic College,BR1 5PZ,Lewisham,Secondary
+150606,Bishop Challoner Catholic School,E1 0LB,Tower Hamlets,Secondary
+150662,Columbia Primary School,E2 7RG,Tower Hamlets,Primary
+150664,St Michael's Catholic Primary School,E6 6EE,Newham,Primary
+150691,Conisborough College,SE6 2SE,Lewisham,Secondary
+150830,Loughborough Primary School,SW9 7UA,Lambeth,Primary
+150889,"London Nautical, City of London Academy",SE1 9NA,Lambeth,Secondary
+150937,St Michael's Catholic College,SE16 4UN,Southwark,Secondary
+151008,St. Thomas More Language College,SW3 2QS,Kensington and Chelsea,Secondary
+151009,St James's Hatcham Church of England Primary School,SE14 6AD,Lewisham,Primary
+151010,St Michael's Church of England Primary School,SE26 4HH,Lewisham,Primary
+151011,St Stephen's CofE Primary School,SE8 4ED,Lewisham,Primary
+151012,St Joseph's Catholic Primary School,SE16 2TY,Southwark,Primary
+151013,Hermitage Primary School,E1W 2PT,Tower Hamlets,Primary
+151310,Millbank Gardens Primary Academy,SW1P 4HR,Westminster,Primary
+151500,St George's Cathedral Catholic Primary School,SE1 6HR,Southwark,Primary
+151527,Fircroft Primary School,SW17 7PP,Wandsworth,Primary
+151731,Our Lady of Victories RC Primary School,SW7 5AQ,Kensington and Chelsea,Primary
+151832,Virginia Primary School,E2 7NQ,Tower Hamlets,Primary
+151990,St Aloysius' College,N6 5LY,Islington,Secondary
+152267,"Plashet, City of London Academy",E6 1DG,Newham,Secondary
+152286,St Mary's Priory Catholic Junior School,N15 5RE,Haringey,Primary
+152287,St Mary's Priory Catholic Infant School,N15 5RE,Haringey,Primary
+152337,Lift Beacon High,N7 0JG,Islington,Secondary
+152443,St Vincent De Paul Catholic Primary School,SW1P 1EP,Westminster,Primary
