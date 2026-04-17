@@ -11,8 +11,6 @@ This is to standardise both sources and its data frame will be used for the Dash
 """
 
 from sqlalchemy import create_engine, text
-import plotly.express as px
-import pandas as pd
 
 unified_sql_query = """
 WITH latest_readings AS (
@@ -82,6 +80,8 @@ ORDER BY
   s.school_name,
   d.device_id;
 """
+import plotly.express as px
+import pandas as pd
 
 df_unified = pd.read_sql(unified_sql_query, engine)
 print(df_unified)
