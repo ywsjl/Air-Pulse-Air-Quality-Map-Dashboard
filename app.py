@@ -447,6 +447,14 @@ def update_map(borough, source, school_type, pollutant):
       source = source,
       school_type = school_type
   )
+  fig = px.scatter_mapbox(
+      df_filtered,
+      lat = "latitude",
+      lon = "longitude",
+      hover_name = "school_name",
+      zoom = 10,
+      height = 600,
+  )
   return create_map(df_filtered, pollutant)
 
 """#**Creating the Clickable Marker callback**
