@@ -245,7 +245,6 @@ def colour_code(value,species):
 
 """#**Building the map**"""
 
-!pip install dash
 from dash import Dash, dcc, html, Input, Output
 
 # Now I am ready to create the map
