@@ -11,6 +11,9 @@ This is to standardise both sources and its data frame will be used for the Dash
 """
 
 from sqlalchemy import create_engine, text
+import plotly.express as px
+import pandas as pd
+
 unified_sql_query = """
 WITH latest_readings AS (
   SELECT
@@ -129,9 +132,6 @@ def build_KPIs(df):
   }
 
 """#**Creating the Ranking Chart function**"""
-
-import plotly.express as px
-import pandas as pd
 
 def build_ranking_chart(df, pollutant, n = 5):
   if pollutant not in ["PM2.5", "PM10", "NO2"]:
