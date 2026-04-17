@@ -102,6 +102,48 @@ import pandas as pd
 df_unified = pd.read_sql(unified_sql_query, engine)
 print(df_unified)
 
+"""#**Creating the filters and assigning colours to the pollutants boundary**"""
+
+# Creating the filter function as this is needed in most of the dashboard.
+def dashboard_filters(df, borough = None, source = None, school_type = None):
+  df_filtered = df.copy()
+  # The condition is for no filter applied and when user picks borough/source/school_type
+  if borough and borough != "All":
+    df_filtered = df_filtered[df_filtered["borough"] == borough]
+
+  if source and source != "All":
+    df_filtered = df_filtered[df_filtered["source"] == source]
+
+  if school_type and school_type != "All":
+    df_filtered = df_filtered[df_filtered["school_type"] == school_type]
+
+  return df_filtered
+
+# Now I will create the boundaries of each pollutant, NO2 & PM2.5
+# I got the pollutant boundaries from DEFRA
+Pollutant_boundaries = {
+    "PM2.5":{"max_green": 35, "max_yellow": 53, "max_red": 70},
+    "NO2":{"max_green": 200, "max_yellow": 400, "max_red": 600},
+    "PM10":{"max_green": 50, "max_yellow": 75, "max_red": 100}
+}
+
+# The next stage is to convert the numbers to colours by creating a function
+# This will then be called in the map creation to show the different pollutant level
+
+def colour_code(value,species):
+  if pd.isna(value):
+    return "Unknown"
+
+  limits = Pollutant_boundaries.get(species)
+  if not limits:
+    return "Unknown"
+  if value <= limits["max_green"]:
+    return "green"
+  elif value <= limits["max_yellow"]:
+    return "yellow"
+  else:
+    return "red"
+
 """#**Creating the Dashboard Analytics**
 The dashboard will display Key Performace Indicators (KPI) such as number of active sensors, number of red alerts, and average pollutant levels.
 
@@ -123,17 +165,17 @@ def build_KPIs(df):
   active_sensors = df.loc[active_pollutants, "device_id"].nunique()
 
   # This is for the number of red alerts per pollutant
-  red_pm25 = df["PM25"].apply(lambda x: colour_code(x, "PM25")).eq("red").sum()
+  red_pm25 = df["PM25"].apply(lambda x: colour_code(x, "PM2.5")).eq("red").sum()
   red_pm10 = df["PM10"].apply(lambda x: colour_code(x, "PM10")).eq("red").sum()
   red_no2 = df["NO2"].apply(lambda x: colour_code(x, "NO2")).eq("red").sum()
 
   # This is for average pollutant levels per borough
-  avg_pm25 = df["PM25"].mean()
+  avg_pm25 = df["PM2.5"].mean()
   avg_pm10 = df["PM10"].mean()
   avg_no2 = df["NO2"].mean()
 
   borough_summary = (
-      df.groupby("borough", dropna = False)[["PM25", "PM10", "NO2"]]
+      df.groupby("borough", dropna = False)[["PM2.5", "PM10", "NO2"]]
       .mean().reset_index().sort_values("borough")
   )
   return{
@@ -216,48 +258,6 @@ def fmt_num(x, digits = 1):
   if pd.isna(x):
     return "No data!"
   return f"{x:.{digits}f}"
-
-"""#**Creating the filters and assigning colours to the pollutants boundary**"""
-
-# Creating the filter function as this is needed in most of the dashboard.
-def dashboard_filters(df, borough = None, source = None, school_type = None):
-  df_filtered = df.copy()
-  # The condition is for no filter applied and when user picks borough/source/school_type
-  if borough and borough != "All":
-    df_filtered = df_filtered[df_filtered["borough"] == borough]
-
-  if source and source != "All":
-    df_filtered = df_filtered[df_filtered["source"] == source]
-
-  if school_type and school_type != "All":
-    df_filtered = df_filtered[df_filtered["school_type"] == school_type]
-
-  return df_filtered
-
-# Now I will create the boundaries of each pollutant, NO2 & PM2.5
-# I got the pollutant boundaries from DEFRA
-Pollutant_boundaries = {
-    "PM2.5":{"max_green": 35, "max_yellow": 53, "max_red": 70},
-    "NO2":{"max_green": 200, "max_yellow": 400, "max_red": 600},
-    "PM10":{"max_green": 50, "max_yellow": 75, "max_red": 100}
-}
-
-# The next stage is to convert the numbers to colours by creating a function
-# This will then be called in the map creation to show the different pollutant level
-
-def colour_code(value,species):
-  if pd.isna(value):
-    return "Unknown"
-
-  limits = Pollutant_boundaries.get(species)
-  if not limits:
-    return "Unknown"
-  if value <= limits["max_green"]:
-    return "green"
-  elif value <= limits["max_yellow"]:
-    return "yellow"
-  else:
-    return "red"
 
 """#**Building the map**"""
 
