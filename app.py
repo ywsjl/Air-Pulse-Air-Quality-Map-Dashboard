@@ -432,6 +432,7 @@ dcc.Graph(id = "air_quality_map"),
 This is when user interacts on Render while using the map and the code below calls the applicable function created above.
 """
 
+from numpy import ma
 @app.callback(
     Output("air_quality_map", "figure"),
     Input("borough_filter", "value"),
@@ -455,7 +456,8 @@ def update_map(borough, source, school_type, pollutant):
       zoom = 10,
       height = 600,
   )
-  return create_map(df_filtered, pollutant)
+  fig.update_layout(mapbox_style = "open-street-map")
+  return fig
 
 """#**Creating the Clickable Marker callback**
 
