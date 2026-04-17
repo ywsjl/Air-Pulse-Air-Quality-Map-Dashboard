@@ -292,7 +292,7 @@ def create_map(df, pollutant):
           "source",
           "PM25",
           "PM10",
-          "NO2"
+          "NO2",
           "colour_code"
       ],
       zoom = 10,
@@ -318,7 +318,7 @@ def create_map(df, pollutant):
       mapbox_style = "open-street-map",
       # This removes white spaces around the map
       margin = dict(l = 0, r = 0, t = 0, b = 0),
-      legend_title = "Air Quality for {pollutant} alert band"
+      legend_title = f"Air Quality for {pollutant} alert band"
   )
   return fig
 
