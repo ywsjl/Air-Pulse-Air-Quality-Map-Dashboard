@@ -1,5 +1,10 @@
+# For the app (Dash)
 dash
 pandas
 requests
 plotly
+# Render deployment
 gunicorn
+# Connect python to Render PostgreSQL
+sqlalchemy
+psycopg2-binary
