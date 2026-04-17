@@ -11,6 +11,7 @@ This is to standardise both sources and its data frame will be used for the Dash
 """
 
 from sqlalchemy import create_engine, text
+import os
 def get_database_URL ():
   #URL = os.environ.get("DATABASE_URL")
   URL = os.getenv("DATABASE_URL")
