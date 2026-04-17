@@ -11,6 +11,21 @@ This is to standardise both sources and its data frame will be used for the Dash
 """
 
 from sqlalchemy import create_engine, text
+def get_database_URL ():
+  #URL = os.environ.get("DATABASE_URL")
+  URL = os.getenv("DATABASE_URL")
+  if not URL:
+    raise RuntimeError("Database URL is not set up")
+  return URL
+
+# Creating a connection manager for python code to interact with PostgreSQL
+engine = create_engine(
+    get_database_URL(),
+    # Prevents stale connections as some connections may be "sleeping"
+    pool_pre_ping = True,
+    # This is so that SQL uses its latest style
+    future = True
+)
 
 unified_sql_query = """
 WITH latest_readings AS (
