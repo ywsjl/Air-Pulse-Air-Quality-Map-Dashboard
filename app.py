@@ -434,10 +434,10 @@ This is when user interacts on Render while using the map and the code below cal
 
 @app.callback(
     Output("air_quality_map", "figure"),
-    Input("borough_filter", "children"),
-    Input("source_filter", "children"),
-    Input("school_type_filter", "children"),
-    Input("pollutant_filter", "children")
+    Input("borough_filter", "value"),
+    Input("source_filter", "value"),
+    Input("school_type_filter", "value"),
+    Input("pollutant_filter", "value")
 )
 
 def update_map(borough, source, school_type, pollutant):
