@@ -165,7 +165,7 @@ def build_KPIs(df):
   active_sensors = df.loc[active_pollutants, "device_id"].nunique()
 
   # This is for the number of red alerts per pollutant
-  red_pm25 = df["PM25"].apply(lambda x: colour_code(x, "PM2.5")).eq("red").sum()
+  red_pm25 = df["PM2.5"].apply(lambda x: colour_code(x, "PM2.5")).eq("red").sum()
   red_pm10 = df["PM10"].apply(lambda x: colour_code(x, "PM10")).eq("red").sum()
   red_no2 = df["NO2"].apply(lambda x: colour_code(x, "NO2")).eq("red").sum()
 
@@ -290,7 +290,7 @@ def create_map(df, pollutant):
           "school_type",
           "device_id",
           "source",
-          "PM25",
+          "PM2.5",
           "PM10",
           "NO2",
           "colour_code"
@@ -374,10 +374,10 @@ app.layout = html.Div(
         dcc.Dropdown(
             id = "pollutant_filter",
             options = [
-                {"label": "PM2.5", "value": "PM25"},
+                {"label": "PM2.5", "value": "PM2.5"},
                 {"label": "PM10", "value": "PM10"},
                 {"label": "NO2", "value": "NO2"}],
-            value = "PM25",
+            value = "PM2.5",
             clearable = False,
             placeholder = "Select a pollutant",
         ),
