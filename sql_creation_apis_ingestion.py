@@ -15,11 +15,11 @@ import os
 from sqlalchemy import create_engine, text
 
 # Creating a connection point for my Breathe & Airgradient ingestion codes, dashboard queries, and schema setup
-os.environ["DATABASE_URL"] = "postgresql://ywsjl2130:KqVwIi3iqlz15pVuvKGB6ynpBF4e6rEZ@dpg-d7edd6hkh4rs73aarmlg-a.oregon-postgres.render.com/timescaledb_473l"
+#os.environ["DATABASE_URL"] = ""
 
 def get_database_URL ():
-  URL = os.environ.get("DATABASE_URL")
-  #URL = os.getenv("DATABASE_URL")
+  #URL = os.environ.get("DATABASE_URL")
+  URL = os.getenv("DATABASE_URL")
   if not URL:
     raise RuntimeError("Database URL is not set up")
   return URL
@@ -183,8 +183,8 @@ import plotly.express as px
 import re
 
 # API consumption using BreatheLondon's API
-#API_key = os.getenv("BL_API_KEY")
-blAPI_key = "AIzaSyCO8yvEqQ8_T7xqBH73Iyes62nu4AtesP4"
+BL_API_KEY = os.getenv("BL_API_KEY")
+#blAPI_key = ""
 # The metadata for list sensors will be used to place markers on the map
 # Sensor data is to colour code the markers and show the readings
 List_sensors_URL = "https://breathe-london-7x54d7qf.ew.gateway.dev/ListSensors"
@@ -192,8 +192,8 @@ Sensor_data_URL = "https://breathe-london-7x54d7qf.ew.gateway.dev/SensorData"
 # Creating a dict of http headers to send a request to the Breathe London server to get what I need from the API
 # Following the website (Breathe London) they said I need 2 headers to call the metadata
 BL_headers = {
-    #"X-API-KEY": BL_API_KEY,
-    "X-API-KEY": blAPI_key,
+    "X-API-KEY": BL_API_KEY,
+    #"X-API-KEY": blAPI_key,
     "Content-Type": "application/json"
 }
 
@@ -620,15 +620,15 @@ print(pd.read_sql("SELECT * FROM devices WHERE source = 'airgradient'", engine))
 """
 
 # API consumption using AirGradient's API
-#API_key = os.getenv("AG_API_KEY")
-AG_API_KEY = "92e55b50-1f00-483b-8fbf-3c96bb6f3c91"
+AG_API_KEY = os.getenv("AG_API_KEY")
+#AG_API_KEY = ""
 
 def AGcurrent_measures(location_id):
   # Using this API to get the current reading of the device
   locations_URL = f"https://api.airgradient.com/public/api/v1/locations/{location_id}/measures/current?token={AG_API_KEY}"
   AG_headers = {
-    #"X-API-KEY": BL_API_KEY,
-    "X-API-KEY": blAPI_key,
+    "X-API-KEY": AG_API_KEY,
+    #"X-API-KEY": AG_API_KEY,
     "Content-Type": "application/json"
   }
   # Now I can request for json metadata
