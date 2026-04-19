@@ -15,11 +15,11 @@ import os
 from sqlalchemy import create_engine, text
 
 # Creating a connection point for my Breathe & Airgradient ingestion codes, dashboard queries, and schema setup
-#os.environ["DATABASE_URL"] = "postgresql://ywsjl2130:KqVwIi3iqlz15pVuvKGB6ynpBF4e6rEZ@dpg-d7edd6hkh4rs73aarmlg-a.oregon-postgres.render.com/timescaledb_473l"
+os.environ["DATABASE_URL"] = "postgresql://ywsjl2130:KqVwIi3iqlz15pVuvKGB6ynpBF4e6rEZ@dpg-d7edd6hkh4rs73aarmlg-a.oregon-postgres.render.com/timescaledb_473l"
 
 def get_database_URL ():
-  #URL = os.environ.get("DATABASE_URL")
-  URL = os.getenv("DATABASE_URL")
+  URL = os.environ.get("DATABASE_URL")
+  #URL = os.getenv("DATABASE_URL")
   if not URL:
     raise RuntimeError("Database URL is not set up")
   return URL
@@ -37,8 +37,8 @@ with engine.connect() as connection:
   result = connection.execute(text("SELECT NOW()")) # lets Alchemy know that it's a SQL query and not python
   print(result.scalar())
 
-with engine.begin() as conn:
-    conn.execute(text("CREATE EXTENSION timescaledb;"))
+#with engine.begin() as conn:
+    #conn.execute(text("CREATE EXTENSION timescaledb;"))
 
 with engine.connect() as conn:
     result = conn.execute(text("""
@@ -102,8 +102,6 @@ with engine.begin() as connection:
 print("Schema created successfully!")
 
 # Checking if the tables and hypertable was created
-from sqlalchemy import text
-
 with engine.connect() as conn:
     print(conn.execute(text("""
         SELECT table_name
@@ -185,7 +183,8 @@ import plotly.express as px
 import re
 
 # API consumption using BreatheLondon's API
-API_key = os.getenv("BL_API_KEY")
+#API_key = os.getenv("BL_API_KEY")
+blAPI_key = "AIzaSyCO8yvEqQ8_T7xqBH73Iyes62nu4AtesP4"
 # The metadata for list sensors will be used to place markers on the map
 # Sensor data is to colour code the markers and show the readings
 List_sensors_URL = "https://breathe-london-7x54d7qf.ew.gateway.dev/ListSensors"
@@ -193,7 +192,8 @@ Sensor_data_URL = "https://breathe-london-7x54d7qf.ew.gateway.dev/SensorData"
 # Creating a dict of http headers to send a request to the Breathe London server to get what I need from the API
 # Following the website (Breathe London) they said I need 2 headers to call the metadata
 BL_headers = {
-    "X-API-KEY": BL_API_KEY,
+    #"X-API-KEY": BL_API_KEY,
+    "X-API-KEY": blAPI_key,
     "Content-Type": "application/json"
 }
 
@@ -216,57 +216,92 @@ print(df_sensors["SiteLocationType"].unique())
 print(len(df_sensors))
 print(df_sensors.columns.tolist())
 
-# Normalising the school names
-def normalise_sch_name(name):
-  if pd.isna(name):
-    return None
-  name = str(name).lower().strip()
-  name = name.replace("&","and")
-  # Removing punctuation
-  name = re.sub(r"[^\w\s]", " ", name)
-  # Removing multiple spaces and replacing with a single space
-  name = re.sub(r"[^\s+]"," ", name)
-  # To remove abbreviations
-  replacements = {
-      "cofe": " ",
-      "c of e": " ",
-      "rc": " ",
-      "roman catholic": " "
-  }
-  # This is to prvent accidentally getting rid of alphabets in the school name
-  # By adding a space in front and behind
-  padded = f"{name}"
-  for old, new in replacements.items():
-    padded = padded.replace(old,new)
-  return re.sub(r"\s+", " ", padded).strip()
+"""Multiple device_ids were being assigned to the same SiteName(school) but since each school is only supposed to have 1 sensor -> 1 school, I am creating a code that remmoves devices and only keeps the device with the latest readings to be matched to the school.
 
+"""
+
+# Using the sensor data url to call the necessary latest readings which is PM2.5 & NO2
+def sensor_readings(species):
+  parameters = {"Species": species}
+  readings_data = requests.get(Sensor_data_URL, headers = BL_headers, timeout = 60, params= parameters)
+  readings_data.raise_for_status()
+# Since the json file isn't in the correct format for python, I have to convert it into the proper dict that python understands
+  return pd.DataFrame(readings_data.json())
+
+dfBL_PM25 = sensor_readings("PM25")
+dfBL_NO2 = sensor_readings("NO2")
+
+df_pm25_time = dfBL_PM25[["SiteCode", "DateTime"]].copy()
+df_no2_time = dfBL_NO2[["SiteCode", "DateTime"]].copy()
+  # This converts the str DateTime pulled from the API to an actual datetime format
+  # In case some of the string cant be converted I used errors so that it will not crash the code
+df_pm25_time["DateTime"] = pd.to_datetime(df_pm25_time["DateTime"], errors = "coerce", utc = True)
+df_no2_time["DateTime"] = pd.to_datetime(df_no2_time["DateTime"], errors = "coerce", utc = True)
+
+# Pulling the latest time seen per device
+df_pm25_latest_time = (
+    df_pm25_time
+    .groupby("SiteCode", as_index = False)["DateTime"]
+    .max()
+    .rename(columns = {"DateTime": "pm25_time"})
+)
+
+df_no2_latest_time = (
+    df_no2_time
+    .groupby("SiteCode", as_index = False)["DateTime"]
+    .max()
+    .rename(columns = {"DateTime": "no2_time"})
+)
+
+df_sensors_final = df_sensors.copy()
+
+df_sensors_final = df_sensors_final.merge(df_pm25_latest_time, on = "SiteCode", how = "left")
+df_sensors_final = df_sensors_final.merge(df_no2_latest_time, on = "SiteCode", how = "left")
+
+df_sensors_final["latest_time"] = df_sensors_final[["pm25_time", "no2_time"]].max(axis = 1)
+
+df_sensors_final = df_sensors_final.sort_values(
+    by = ["SiteName", "latest_time"],
+    ascending = [True, False]
+)
+
+df_sensors_final = df_sensors_final.drop_duplicates(subset = ["SiteName"], keep = "first").copy()
+print("One sensor per school:", len(df_sensors_final))
+print(df_sensors_final[["SiteCode","SiteName", "latest_time"]].head(40))
+
+"""There are 58 sensors per school which meant without doing this step, almost half of the intial 101 sensors were "duplicates" for some schools."""
+
+# This is to double confirm that all duplicates have been removed.
+dupes = df_sensors_final[df_sensors_final.duplicated(subset=["SiteName"], keep=False)]
+print("Duplicate SiteName rows remaining:", len(dupes))
+
+if not dupes.empty:
+    print(dupes[["SiteCode", "SiteName", "latest_time"]].sort_values("SiteName").to_string(index=False))
+else:
+    print("Success: 1 sensor per SiteName.")
+
+# Normalising the borough name
 def normalise_borough(y):
   if pd.isna(y):
     return None
   return str(y).strip().lower()
-# Creating a new column in each dataframe for the normalised schools
-df_sensors["school_name_norm"] = df_sensors["SiteName"].apply(normalise_sch_name)
-df_sensors["borough_norm"] = df_sensors["Borough"].apply(normalise_borough)
-df_pcIL["school_name_norm"] = df_pcIL["school_name"].apply(normalise_sch_name)
+# Creating a new column in each dataframe for the normalised borough and changing SiteName to school_name for BL sensors
+df_sensors_final["school_name"] = df_sensors_final["SiteName"]
+df_sensors_final["borough_norm"] = df_sensors_final["Borough"].apply(normalise_borough)
 df_pcIL["borough_norm"] = df_pcIL["borough"].apply(normalise_borough)
 
 """# **Merging Breathe London sensors to postcode centroid inner London schools to create a new dataframe**"""
 
-df_match_both = (
+df_match_both_sch_bor = (
     df_pcIL.sort_values("school_id")
-    .drop_duplicates(subset = ["school_name_norm", "borough_norm"]).copy()
-)
-df_schools_name_match = (
-    df_pcIL.sort_values("school_id")
-    .drop_duplicates(subset = ["school_name_norm"]).copy()
+    .drop_duplicates(subset = ["school_name","borough_norm"]).copy()
 )
 
-df_match_both = df_sensors.merge(
-    df_match_both[
+df_match_both = df_sensors_final.merge(
+    df_match_both_sch_bor[
         [
             "school_id",
             "school_name",
-            "school_name_norm",
             "school_type",
             "postcode",
             "borough",
@@ -275,50 +310,36 @@ df_match_both = df_sensors.merge(
             "centroid_lon"
         ]
     ],
-    on = ["school_name_norm","borough_norm"],
+    on = ["school_name","borough_norm"],
     how = "left",
     suffixes = ("_sensor", "_school")
 )
 
 df_unmatched = df_match_both[df_match_both["school_id"].isna()].copy()
-print("Unmatched schools:", len(df_unmatched))
+print("Strict Matched Schools:", df_match_both["school_id"].notna().sum())
+print("Strict Unmatched Schools:", len(df_unmatched))
 
-df_schools_name_match = df_unmatched.drop(
-    columns = [
-        "school_id",
-        "school_name",
-        "postcode",
-        "centroid_lat",
-        "centroid_lon"], errors = "ignore"
-).merge(
-    df_schools_name_match[
-        ["school_id",
-        "school_name",
-        "school_name_norm",
-        "school_type",
-        "postcode",
-        "centroid_lat",
-        "centroid_lon"]
-    ],
-    on = "school_name_norm",
-    how = "left"
-)
+# Checking if it was correctly matched
+columns = [
+    "SiteCode",
+    "SiteName",
+    "school_id",
+    "school_name",
+    "borough_norm"
+]
 
-df_first_match = df_match_both[df_match_both["school_id"].notna()].copy()
-df_second_match = df_schools_name_match[df_schools_name_match["school_id"].notna()].copy()
+df_check = df_match_both[df_match_both["school_id"].notna()][columns].copy()
+print(df_check.sort_values("school_name").to_string(index = False))
 
-df_sensors_school = pd.concat([df_first_match, df_second_match], ignore_index = True)
-df_sensors_school = df_sensors_school.drop_duplicates(subset = ["SiteCode"], keep = "first")
-print("Matched sensors:", df_sensors_school["school_id"].notna().sum())
-print("Total sensors:",len(df_sensors_school))
+"""The total number of matched sensors to the inner London postcode centroid schools is 58."""
 
 # Changing all the coordinates from Breathe London to centroid coordinates
-df_sensors_school["Latitude"] = df_sensors_school["centroid_lat"]
-df_sensors_school["Longitude"] = df_sensors_school["centroid_lon"]
+df_match_both["Latitude"] = df_match_both["centroid_lat"]
+df_match_both["Longitude"] = df_match_both["centroid_lon"]
 
-df_devices = df_sensors_school[df_sensors_school["school_id"].notna()].copy
-df_devices = df_sensors_school[
-    ["SiteCode",
+df_devices = df_match_both[
+    df_match_both["school_id"].notna()]
+[["SiteCode",
      "SiteName",
      "school_id"
     ]
@@ -392,21 +413,39 @@ seed_devices(df_devices, engine)
 verify_df = pd.read_sql("SELECT * FROM devices LIMIT 5", engine)
 print(verify_df)
 
+# Checking if there are still any duplicates that may not have been removed initially
+pd.read_sql("""
+SELECT device_id, COUNT(*) AS n
+FROM devices
+GROUP BY device_id
+HAVING COUNT(*) > 1
+ORDER BY n DESC;
+""", engine)
+
 """# **Calling the necessary data needed for the Breathe London Readings dataframe.**"""
 
-# Using the sensor data url to call the necessary latest readings which is PM2.5 & NO2
-def sensor_readings(species):
-  parameters = {"Species": species}
-  readings_data = requests.get(Sensor_data_URL, headers = BL_headers, timeout = 60, params= parameters)
-  readings_data.raise_for_status()
-# Since the json file isn't in the correct format for python, I have to convert it into the proper dict that python understands
-  return pd.DataFrame(readings_data.json())
+# Seeing the number of raw readings before pulling the matched deivce readings.
+dfBL_rawPM25 = sensor_readings("PM25")
+dfBL_rawNO2 = sensor_readings("NO2")
+print("PM2.5 Readings:", len(dfBL_rawPM25))
+print("NO2 Readings:", len(dfBL_rawNO2))
 
-# Small EDA to see if the above is running smoothly, the features in the metadata, and number of sensors they have
-dfBL_PM25 = sensor_readings("PM25")
-dfBL_NO2 = sensor_readings("NO2")
-print("PM2.5 Readings", len(dfBL_PM25))
-print("NO2 Readings", len(dfBL_NO2))
+BLdevice_ids = set(
+    df_devices.loc[df_devices["source"]== "breathe_london","device_id"].astype(str)
+)
+print("Matched BL device IDs:", len(BLdevice_ids))
+
+# Using the list of device IDs called from above, to filter the readings pulled above  and match the sensors
+dfBL_PM25 = dfBL_rawPM25[
+    dfBL_rawPM25["SiteCode"].astype(str).isin(BLdevice_ids)
+].copy()
+
+dfBL_NO2 = dfBL_rawNO2[
+    dfBL_rawNO2["SiteCode"].astype(str).isin(BLdevice_ids)
+].copy()
+
+print("Filtered PM2.5 Readings:", len(dfBL_PM25))
+print("Filtered NO2 Readings:", len(dfBL_NO2))
 
 def latest_snapshot(dfBL, species_name):
   # Keeping only the features required
@@ -445,40 +484,47 @@ dfBL_ss = pd.concat(
 )
 
 # Checking if it worked
-# It should roughly correspond with total number of readings,242. (from EDA output)
+# It should roughly correspond with total number of readings,240. (from EDA output)
 print(dfBL_ss.head())
 print("Rows in Breathe London snapshot:", len(dfBL_ss))
 
-"""#**Ensuring that the device ID was added into the Devices table before seeding the readings into the Readings table**
+"""The output for valid ss reading devices are 21. However, this may change someitmes depending on the time as certain devices may not call readings every hour.
+
+#**Ensuring that there are no duplicates**
 
 Because in the event it was not done, this step ensures no errors arise.
 """
 
-# To match the devices seeded in Devices table
-# Removing the unmatched Devices
-df_devices_db = pd.read_sql("SELECT device_id FROM devices;", engine)
-valid_devices_id = set(df_devices_db["device_id"].astype(str))
+# Checking if there are any duplicates that may not have been removed initially
+pd.read_sql("""
+SELECT device_id, COUNT(*) AS n
+FROM readings
+GROUP BY time, device_id, species
+HAVING COUNT(*) > 1
+ORDER BY n DESC;
+""", engine)
 
-dfBL_ss = dfBL_ss[
-    dfBL_ss["device_id"].astype(str).isin(valid_devices_id)
-].copy()
-
-print("Rows after applying filter. Output for valid ss readings devices:", len(dfBL_ss))
-
-"""The output for valid ss reading devices are 87 because 14 of the devices that were seeded in the Devices table do not have a reading currently.
-
-# **Inserting these readings into the Readings table.**
-"""
+"""# **Inserting these readings into the Readings table.**"""
 
 # Editing the Readings table because I need to add constraints
 # To use in ON CONFLICT which prevents adding duplicate readings
 with engine.begin() as connection:
   connection.execute(text("""
-      ALTER TABLE readings
-      ADD CONSTRAINT unique_reading
-      -- all 3 is required because even though id is unique
-      -- since there are multiple pollutants, there will be more than 1 of the same id
-      UNIQUE (time,device_id,species)
+  DO $$
+  BEGIN
+      IF NOT EXISTS(
+        -- checking if this constraint has already been added
+          SELECT 1
+          FROM pg_constraint
+          WHERE conname = 'unique_reading'
+       ) THEN
+            ALTER TABLE readings
+            ADD CONSTRAINT unique_reading
+            -- all 3 is required because even though id is unique
+            -- since there are multiple pollutants, there will be more than 1 of the same id
+            UNIQUE (time,device_id,species);
+          END IF;
+  END $$;
   """))
 
 print("Unique constraints have been added to Readings table.")
@@ -574,15 +620,20 @@ print(pd.read_sql("SELECT * FROM devices WHERE source = 'airgradient'", engine))
 """
 
 # API consumption using AirGradient's API
-API_key = os.getenv("AG_API_KEY")
+#API_key = os.getenv("AG_API_KEY")
+AG_API_KEY = "92e55b50-1f00-483b-8fbf-3c96bb6f3c91"
 
 def AGcurrent_measures(location_id):
   # Using this API to get the current reading of the device
   locations_URL = f"https://api.airgradient.com/public/api/v1/locations/{location_id}/measures/current?token={AG_API_KEY}"
-
+  AG_headers = {
+    #"X-API-KEY": BL_API_KEY,
+    "X-API-KEY": blAPI_key,
+    "Content-Type": "application/json"
+  }
   # Now I can request for json metadata
   # I can check if the requests is working through the 2nd line
-  r = requests.get(locations_URL, headers = headers, timeout = 60)
+  r = requests.get(locations_URL, headers = AG_headers, timeout = 60)
   r.raise_for_status()
   return r.json()
 
@@ -666,3 +717,124 @@ SELECT * FROM readings WHERE device_id IN (
     SELECT device_id FROM devices WHERE source = 'airgradient'
 )""", engine)
 print(verify_df)
+
+unified_sql_query = """
+WITH latest_readings AS (
+  SELECT
+    r.device_id,
+    r.species,
+    r.value,
+    r.time,
+    ROW_NUMBER() OVER (
+      PARTITION BY r.device_id, r.species
+      ORDER BY r.time DESC
+    ) AS rn
+  FROM readings r
+),
+-- keeping only the latest reading because Render can't support historical data (too big)
+latest_only AS(
+    SELECT
+      device_id,
+      species,
+      value,
+      time
+    FROM latest_readings
+    -- because the readings are ranked from latest (desc order)
+    -- 1 is calling the top reading for each device/species
+    WHERE rn = 1
+)
+SELECT
+  d.device_id,
+  d.source,
+  d.device_name,
+  d.school_id,
+  s.school_name,
+  s.school_type,
+  s.postcode,
+  s.borough,
+  s.centroid_lat AS latitude,
+  s.centroid_lon AS longitude,
+-- MAX ignores null values as CASE WHEN filters by species (value or null) per device
+  MAX(CASE WHEN lo.species = 'PM25' THEN lo.value END) AS "PM2.5",
+  MAX(CASE WHEN lo.species ='PM10' THEN lo.value END) AS "PM10",
+  MAX(CASE WHEN lo.species = 'NO2' THEN lo.value END) AS "NO2",
+
+  MAX(CASE WHEN lo.species = 'PM25' THEN lo.time END) AS "PM2.5_time",
+  MAX(CASE WHEN lo.species ='PM10' THEN lo.time END) AS "PM10_time",
+  MAX(CASE WHEN lo.species = 'NO2' THEN lo.time END) AS "NO2_time"
+
+FROM devices d
+JOIN schools s
+  ON d.school_id = s.school_id
+LEFT JOIN latest_only lo
+  ON d.device_id = lo.device_id
+-- use GROUP BY to get one row per device
+GROUP BY
+  d.device_id,
+  d.source,
+  d.device_name,
+  d.school_id,
+  s.school_name,
+  s.school_type,
+  s.postcode,
+  s.borough,
+  s.centroid_lat,
+  s.centroid_lon
+
+ORDER BY
+  d.source,
+  s.school_name,
+  d.device_id;
+"""
+import plotly.express as px
+import pandas as pd
+
+df_unified = pd.read_sql(unified_sql_query, engine)
+print(df_unified)
+
+"""#Debugging code to fix the issue: Multiple device IDs are being assigned to the same school ID, thus the codes below is to find out which part of the above code is creating the issue."""
+
+# This is to check where the issue is
+pd.read_sql("""
+SELECT school_id, COUNT(*) AS n
+FROM devices
+GROUP BY school_id
+ORDER BY n DESC
+LIMIT 20;
+""", engine)
+
+pd.read_sql("""
+SELECT *
+FROM schools
+WHERE school_id = '100000';
+""", engine)
+
+"""#I have discovered that the issue is when I was mapping the inner postcode centroid London dataframe to the Breathe London dataframe.
+
+Therefore, I am going to write a query that will delete Breathe Londons' data from the readings and devices tables in SQL Alchemy.
+"""
+
+with engine.begin() as connection:
+  connection.execute(text("""
+      DELETE from readings
+      WHERE device_id IN(
+        SELECT device_id
+        FROM devices
+        WHERE source = 'breathe_london'
+      );
+  """))
+print("Breathe London readings deleted.")
+
+with engine.begin() as connection:
+  connection.execute(text("""
+      DELETE from devices
+      WHERE source = 'breathe_london';
+  """))
+print("Breathe London devices deleted.")
+
+# Confirming this has been done by checking if these tables only have AirGradient data seeded
+pd.read_sql("""
+SELECT source, COUNT (*)
+FROM devices
+GROUP BY source;
+""", engine)
