@@ -121,10 +121,10 @@ def dashboard_filters(df, borough = None, source = None, school_type = None):
 
 # Now I will create the boundaries of each pollutant, NO2 & PM2.5
 # I got the pollutant boundaries from DEFRA
-Pollutant_boundaries = {
-    "PM2.5":{"max_green": 35, "max_yellow": 53, "max_red": 70},
-    "NO2":{"max_green": 200, "max_yellow": 400, "max_red": 600},
-    "PM10":{"max_green": 50, "max_yellow": 75, "max_red": 100}
+pollutant_boundaries = {
+    "PM2.5":{"max_green": 35, "max_yellow": 53},
+    "NO2":{"max_green": 200, "max_yellow": 400},
+    "PM10":{"max_green": 50, "max_yellow": 75}
 }
 
 # The next stage is to convert the numbers to colours by creating a function
@@ -134,7 +134,7 @@ def colour_code(value,species):
   if pd.isna(value):
     return "Unknown"
 
-  limits = Pollutant_boundaries.get(species)
+  limits = pollutant_boundaries.get(species)
   if not limits:
     return "Unknown"
   if value <= limits["max_green"]:
@@ -215,7 +215,7 @@ def build_ranking_chart(df, pollutant, n = 5):
   bottom_rank = df_ranking.nsmallest(n, pollutant).copy()
   bottom_rank["group"] = "Lowest"
 
-  df_ranking = pd.concat([top_rank, bottom_rank], ignore_indes = True)
+  df_ranking = pd.concat([top_rank, bottom_rank], ignore_index = True)
 
   fig = px.bar(
       df_ranking,
@@ -249,6 +249,7 @@ def build_borough_bar_chart(df, pollutant):
       y = pollutant,
       title = f"Current average {pollutant} levels per borough."
   )
+  return fig
 
 """#**Formatting the above functions when they are called during Dash**
 
@@ -354,8 +355,7 @@ app.layout = html.Div(
             ),
         dcc.Dropdown(
             id = "source_filter",
-            options = [
-                {"label": "All", "value": "All"}] +
+            options = [{"label": "All", "value": "All"}] +
                 [{"label": s.replace("_"," ").title(), "value": s} for s in sorted(df_unified["source"].dropna().unique())],
             value = "All",
             clearable = False,
@@ -433,6 +433,8 @@ This is when user interacts on Render while using the map and the code below cal
 """
 
 from numpy import ma
+# ma is a library called masked arrays that helps ignore invalid datapoints
+# for calculations
 @app.callback(
     Output("air_quality_map", "figure"),
     Input("borough_filter", "value"),
@@ -448,16 +450,7 @@ def update_map(borough, source, school_type, pollutant):
       source = source,
       school_type = school_type
   )
-  fig = px.scatter_mapbox(
-      df_filtered,
-      lat = "latitude",
-      lon = "longitude",
-      hover_name = "school_name",
-      zoom = 10,
-      height = 600,
-  )
-  fig.update_layout(mapbox_style = "open-street-map")
-  return fig
+  return create_map(df_filtered, pollutant)
 
 """#**Creating the Clickable Marker callback**
 
@@ -501,12 +494,12 @@ This is when user interacts on Render while using the map and the code below cal
     Output("average_pm25_card", "children"),
     Output("average_pm10_card", "children"),
     Output("average_no2_card", "children"),
-    Input("borough_filter", "children"),
-    Input("source_filter", "children"),
-    Input("school_type_filter", "children"),
-    Input("pollutant_filter", "children")
+    Input("borough_filter", "value"),
+    Input("source_filter", "value"),
+    Input("school_type_filter", "value"),
+    Input("pollutant_filter", "value")
 )
-def update_KPI_cards(borough, source, school_type):
+def update_KPI_cards(borough, source, school_type, pollutant):
   df_filtered = dashboard_filters(
       df_unified,
       borough = borough,
@@ -542,7 +535,7 @@ def update_KPI_cards(borough, source, school_type):
   ])
   average_no2_card = html.Div([
       html.H4("Average NO2 Levels"),
-      html.H2(fmt_num(KPIs["avg_pmno2"]))
+      html.H2(fmt_num(KPIs["avg_no2"]))
   ])
 
   return(
@@ -562,7 +555,7 @@ This is when user interacts on Render while using the map and the code below cal
 
 @app.callback(
     Output("ranking_chart", "figure"),
-    Input("brough_filter", "value"),
+    Input("borough_filter", "value"),
     Input("source_filter", "value"),
     Input("school_type_filter", "value"),
     Input("pollutant_filter", "value")
