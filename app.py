@@ -423,7 +423,7 @@ dcc.Graph(id = "air_quality_map"),
     ),
     # Ranking chart
     html.H3("Current Ranking of Schools"),
-    dcc.Div(
+    html.Div(
         style = {
             "display": "grid",
             "gridTemplateColumns": "1fr 1fr",
