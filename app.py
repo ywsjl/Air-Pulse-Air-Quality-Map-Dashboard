@@ -210,25 +210,29 @@ def build_ranking_chart(df, pollutant, n = 5):
   )
 
   top_rank = df_ranking.nlargest(n, pollutant).copy()
-  top_rank["group"] = "Highest"
-
   bottom_rank = df_ranking.nsmallest(n, pollutant).copy()
-  bottom_rank["group"] = "Lowest"
 
-  df_ranking = pd.concat([top_rank, bottom_rank], ignore_index = True)
-
-  fig = px.bar(
-      df_ranking,
-      x = pollutant,
-      y = "school_name",
-      color = "group",
+  fig_highest5 = px.bar(
+      top_rank,
+      x = "school_name",
+      y = pollutant,
       hover_data = ["borough"],
-      orientation = "h",
-      title = f"Current highest and lowest {n} schools by {pollutant}"
+      color_discrete_sequence = ["orange"],
+      title = f"Current highest {n} schools by {pollutant} level"
   )
+  fig_highest5.update_layout(xaxis_tickangle = -45)
 
-  fig.update_layout(yaxis = {"categoryorder": "total ascending"})
-  return fig
+  fig_lowest5 = px.bar(
+      bottom_rank,
+      x = "school_name",
+      y = pollutant,
+      hover_data = ["borough"],
+      color_discrete_sequence = ["blue"],
+      title = f"Current lowest {n} schools by {pollutant} level"
+  )
+  fig_lowest5.update_layout(xaxis_tickangle = -45)
+
+  return fig_highest5, fig_lowest5
 
 """#**Creating the average pollutant level per Borough bar chart function**"""
 
@@ -418,8 +422,19 @@ dcc.Graph(id = "air_quality_map"),
       ]
     ),
     # Ranking chart
-    html.H3("Current Ranking of Schools (Highest & Lowest)"),
-    dcc.Graph(id = "ranking_chart"),
+    html.H3("Current Ranking of Schools"),
+    dcc.Div(
+        style = {
+            "display": "grid",
+            "gridTemplateColumns": "1fr 1fr",
+            "gap": "20px",
+            "marginBottom": "30px"
+        },
+        children = [
+            dcc.Graph(id = "highest_ranking_chart"),
+            dcc.Graph(id = "lowest_ranking_chart"),
+        ]
+    ),
 
     # Borough avg chart
     html.H3("Average Pollutant Level per Borough"),
@@ -554,7 +569,8 @@ This is when user interacts on Render while using the map and the code below cal
 """
 
 @app.callback(
-    Output("ranking_chart", "figure"),
+    Output("highest_ranking_chart", "figure"),
+    Output("lowest_ranking_chart", "figure"),
     Input("borough_filter", "value"),
     Input("source_filter", "value"),
     Input("school_type_filter", "value"),
