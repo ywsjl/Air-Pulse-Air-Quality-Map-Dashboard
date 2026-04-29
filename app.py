@@ -144,6 +144,29 @@ def colour_code(value,species):
   else:
     return "red"
 
+# Creating a pollutant info dictionary
+pollutant_info ={
+    "PM2.5":{
+        "Name": "PM2.5 - Fine Particulate Matter",
+        "Description": "PM2.5 refers to very small particles in the air that are 2.5 micrometres or smaller.",
+        "Effects":"They can travel deep into the lungs and may worsen asthma, breathing problems, and heart-related conditions.",
+        "Sources":"Common sources include road traffic and industrial activity."
+    },
+    "PM10":{
+        "Name": "PM10 - Coarse Particulate Matter",
+        "Description": "PM10 refers to particles in the air that are 10 micrometres or smaller.",
+        "Effects":"They can can irritate the nose, throat, and lungs, especially for children.",
+        "Sources":"Common sources include road dust and construction."
+
+    },
+    "NO2":{
+        "Name": "NO2 - Nitrogen Dioxide",
+        "Description": "NO2 is a gas pollutant strongly linked to traffic emissions.",
+        "Effects":"High NO2 levels can irritate the airways and may worsen asthma and other breathing problems.",
+        "Sources":"Common sources include vehicles."
+    }
+}
+
 """#**Creating the Dashboard Analytics**
 The dashboard will display Key Performace Indicators (KPI) such as number of active sensors, number of red alerts, and average pollutant levels.
 
@@ -255,6 +278,27 @@ def build_borough_bar_chart(df, pollutant):
   )
   return fig
 
+"""#**Creating a pie chart to display the number of sensors in each borough**"""
+
+def build_borough_pie_chart(df):
+  # Number of sensors per borough
+  df_plot = (
+      df.groupby("borough")["device_id"]
+      .nunique()
+      .reset_index(name = "sensor_count")
+      .dropna(subset = ["borough"])
+  )
+  if df_plot.empty:
+    return px.pie(title = "No data currently available!")
+
+  fig = px.pie(
+      df_plot,
+      names = "borough",
+      values = "sensor_count",
+      title = "Number of sensors per borough"
+  )
+  return fig
+
 """#**Formatting the above functions when they are called during Dash**
 
 """
@@ -279,7 +323,7 @@ def create_map(df, pollutant):
   df["colour_code"] = df[pollutant].apply(lambda x: colour_code(x, pollutant))
 
   # Creating the colours on the map
-  colour_landmark = {"green":"green", "yellow":"gold", "red":"red", "Unknown":"lightgray"}
+  colour_landmark = {"green":"green", "yellow":"gold", "red":"red", "Unknown":"black"}
 
   fig = px.scatter_mapbox(
       df,
@@ -387,6 +431,17 @@ app.layout = html.Div(
         ),
     ]
 ),
+html.H3("Selected Pollutant Information"),
+html.Div(
+    id = "pollutant_info",
+    style = {
+        "border": "1px solid lightgrey",
+        "padding": "14px",
+        "borderRadius": "8px",
+        "marginBottom": "25px",
+        "backgroundColor": "#f9f9f9"
+    }
+),
 
 html.H3("School Map"),
 dcc.Graph(id = "air_quality_map"),
@@ -439,6 +494,10 @@ dcc.Graph(id = "air_quality_map"),
     # Borough avg chart
     html.H3("Average Pollutant Level per Borough"),
     dcc.Graph(id = "borough_avg_chart"),
+
+    # Sensor per Borough pie chart
+    html.H3("Number of Sensors per Borough"),
+    dcc.Graph(id = "borough_pie_chart")
   ]
 )
 
@@ -495,6 +554,30 @@ def display_sensor_deets(clickData):
         html.Li([html.B("Colour alert: "), str(colour_code)])
 
     ])
+
+"""#**Creating the Pollution Info callback**"""
+
+@app.callback(
+    Output("pollutant_info", "children"),
+    Input("pollutant_filter", "value")
+)
+def update_pollutant_info(pollutant):
+  info = pollutant_info.get(pollutant)
+  if info is None:
+    return "Select a pollutant to see more information!"
+
+  return html.Div([
+      html.H4(info["Name"]),
+      html.P(info["Description"]),
+      html.P([
+          html.B("Health Effects:"),
+          info["Effects"]
+      ]),
+      html.P([
+          html.B("Common Sources:"),
+          info["Sources"]
+      ])
+  ])
 
 """#**Creating the KPIs card callback**
 
@@ -605,6 +688,26 @@ def update_borough_avg_chart(borough, source, school_type, pollutant):
       school_type = school_type
   )
   return build_borough_bar_chart(df_filtered, pollutant)
+
+"""#**Creating the number of sensors per borough**
+
+"""
+
+@app.callback(
+    Output("borough_pie_chart", "figure"),
+    Input("borough_filter", "value"),
+    Input("source_filter", "value"),
+    Input("school_type_filter", "value"),
+    Input("pollutant_filter", "value")
+)
+def update_borough_pie_chart(borough, source, school_type, pollutant):
+  df_filtered = dashboard_filters(
+      df_unified,
+      borough = None,
+      source = source,
+      school_type = school_type
+  )
+  return build_borough_pie_chart(df_filtered)
 
 if __name__ == "__main__":
     app.run(debug=True)
