@@ -13,15 +13,15 @@ import re
 import pandas as pd
 
 # API consumption using BreatheLondon's API
-#BL_API_KEY = os.getenv("BL_API_KEY")
-blAPI_key = "AIzaSyCO8yvEqQ8_T7xqBH73Iyes62nu4AtesP4"
+BL_API_KEY = os.getenv("BL_API_KEY")
+#blAPI_key = ""
 # Sensor data is to colour code the markers and show the readings
 List_sensors_URL = "https://breathe-london-7x54d7qf.ew.gateway.dev/ListSensors"
 # Creating a dict of http headers to send a request to the Breathe London server to get what I need from the API
 # Following the website (Breathe London) they said I need 2 headers to call the metadata
 BL_headers = {
-    #"X-API-KEY": BL_API_KEY,
-    "X-API-KEY": blAPI_key,
+    "X-API-KEY": BL_API_KEY,
+    #"X-API-KEY": blAPI_key,
     "Content-Type": "application/json"
 }
 # Now I can request for json metadata
